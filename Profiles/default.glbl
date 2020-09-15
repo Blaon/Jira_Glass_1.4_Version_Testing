@@ -6,17 +6,27 @@
    <defaultProfile>true</defaultProfile>
    <GlobalVariableEntity>
       <description></description>
-      <initValue>'https://jira2.codecool.codecanvas.hu/'</initValue>
+      <initValue>'https://jira2.codecool.codecanvas.hu'</initValue>
       <name>BaseURL</name>
    </GlobalVariableEntity>
    <GlobalVariableEntity>
       <description></description>
       <initValue>'codecooladmin'</initValue>
-      <name>Username</name>
+      <name>SystemAdminUsername</name>
    </GlobalVariableEntity>
    <GlobalVariableEntity>
       <description></description>
       <initValue>'2019Aprilis1'</initValue>
-      <name>Password</name>
+      <name>SystemAdminPassword</name>
+   </GlobalVariableEntity>
+   <GlobalVariableEntity>
+      <description></description>
+      <initValue>'ToPPAdmin'</initValue>
+      <name>ProjectAdminNameAndPass</name>
+   </GlobalVariableEntity>
+   <GlobalVariableEntity>
+      <description></description>
+      <initValue>'ToPUser1'</initValue>
+      <name>UserNameAndPass</name>
    </GlobalVariableEntity>
 </GlobalVariableEntities>

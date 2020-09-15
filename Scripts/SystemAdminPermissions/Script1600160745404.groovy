@@ -15,18 +15,20 @@ import com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords as WebUI
 import com.kms.katalon.core.windows.keyword.WindowsBuiltinKeywords as Windows
 import internal.GlobalVariable as GlobalVariable
 import org.openqa.selenium.Keys as Keys
+import com.kms.katalon.core.testobject.ConditionType
 
-WebUI.openBrowser('')
 
-WebUI.navigateToUrl(GlobalVariable.BaseURL)
+CustomKeywords.'topTestKeywords.Login.openBrowser'()
 
-WebUI.setText(findTestObject('Page_System Dashboard - Jira/input_U_os_username'), GlobalVariable.Username)
+CustomKeywords.'topTestKeywords.Login.loginAsUser'(GlobalVariable.SystemAdminUsername, GlobalVariable.SystemAdminPassword)
 
-WebUI.setText(findTestObject('Page_System Dashboard - Jira/input_P_os_password'), GlobalVariable.Password)
+WebUI.navigateToUrl(GlobalVariable.BaseURL + '/projects/TWT?selectedItem=com.codecanvas.glass:glass')
 
-WebUI.click(findTestObject('Object Repository/Page_System Dashboard - Jira/Login Button'))
+String xpath = "//span[@class='aui-icon aui-icon-small aui-iconfont-sidebar-link glass-middle-position']/ancestor::a[@href='" + root + "']"
+TestObject tObject = new TestObject("sortCut")
+tObject.addProperty("xpath", ConditionType.EQUALS, xpath)
 
-WebUI.click(findTestObject('Object Repository/Page_System Dashboard - Jira/User Avatar'))
+WebUI.waitForElementVisible(tObject, 10)
 
-WebUI.closeBrowser()
+WebUI.click(tObject)
 

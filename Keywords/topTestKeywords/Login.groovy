@@ -21,17 +21,23 @@ import com.kms.katalon.core.windows.keyword.WindowsBuiltinKeywords as Windows
 import internal.GlobalVariable
 
 public class Login {
-	
+
 	@Keyword
-	def loginAsUser(String username, String Password){
-		WebUI.openBrowser('')
-		WebUI.navigateToUrl(GlobalVariable.BaseURL)
-		WebUI.setText(findTestObject('Page_System Dashboard - Jira/input_U_os_username'), username)
-		
-		WebUI.setText(findTestObject('Page_System Dashboard - Jira/input_P_os_password'), password)
-		
+	def loginAsUser(String username, String password){
+
+		WebUI.setText(findTestObject('Object Repository/Page_System Dashboard - Jira/Username Field'), username)
+
+		WebUI.setText(findTestObject('Object Repository/Page_System Dashboard - Jira/Password Field'), password)
+
 		WebUI.click(findTestObject('Object Repository/Page_System Dashboard - Jira/Login Button'))
-		
+
 		WebUI.waitForElementVisible(findTestObject('Object Repository/Page_System Dashboard - Jira/User Avatar'), 10)
+	}
+
+	@Keyword
+	def openBrowser(){
+		WebUI.openBrowser('')
+		WebUI.maximizeWindow()
+		WebUI.navigateToUrl(GlobalVariable.BaseURL)
 	}
 }

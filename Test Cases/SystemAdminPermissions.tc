@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>SystemAdminPermissions</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>5f2bf7e8-2529-4646-b65e-36beb2bd534b</testCaseGuid>
+   <variable>
+      <defaultValue>'root'</defaultValue>
+      <description></description>
+      <id>2acb2ddf-a732-4114-9fc0-f992f631b1da</id>
+      <masked>false</masked>
+      <name>root</name>
+   </variable>
+   <variable>
+      <defaultValue>'tab'</defaultValue>
+      <description></description>
+      <id>c76227fb-d30d-4df2-8abe-118f3484efbc</id>
+      <masked>false</masked>
+      <name>tab</name>
+   </variable>
+   <variable>
+      <defaultValue>'expectedURL'</defaultValue>
+      <description></description>
+      <id>b0446921-e53b-4075-a14c-b311c0c937cc</id>
+      <masked>false</masked>
+      <name>expectedUrl</name>
+   </variable>
+</TestCaseEntity>
