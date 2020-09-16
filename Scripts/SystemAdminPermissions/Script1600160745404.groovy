@@ -15,8 +15,18 @@ import com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords as WebUI
 import com.kms.katalon.core.windows.keyword.WindowsBuiltinKeywords as Windows
 import internal.GlobalVariable as GlobalVariable
 import org.openqa.selenium.Keys as Keys
-import com.kms.katalon.core.testobject.ConditionType
+import com.kms.katalon.core.testobject.ConditionType as ConditionType
 
+String xpath = ('//span[@class=\'aui-icon aui-icon-small aui-iconfont-sidebar-link glass-middle-position\']/ancestor::a[@href=\'' + 
+root) + '\']'
+
+TestObject tObject = new TestObject('sortCut')
+
+tObject.addProperty('xpath', ConditionType.EQUALS, xpath)
+
+TestObject tab = new TestObject('clickableTab')
+
+tab.addProperty('xpath', ConditionType.EQUALS, clickableTab)
 
 CustomKeywords.'topTestKeywords.Login.openBrowser'()
 
@@ -24,11 +34,17 @@ CustomKeywords.'topTestKeywords.Login.loginAsUser'(GlobalVariable.SystemAdminUse
 
 WebUI.navigateToUrl(GlobalVariable.BaseURL + '/projects/TWT?selectedItem=com.codecanvas.glass:glass')
 
-String xpath = "//span[@class='aui-icon aui-icon-small aui-iconfont-sidebar-link glass-middle-position']/ancestor::a[@href='" + root + "']"
-TestObject tObject = new TestObject("sortCut")
-tObject.addProperty("xpath", ConditionType.EQUALS, xpath)
+WebUI.waitForElementVisible(tab, timeout)
 
-WebUI.waitForElementVisible(tObject, 10)
+WebUI.click(tab)
+
+WebUI.verifyElementPresent(tObject, timeout)
 
 WebUI.click(tObject)
+
+WebUI.switchToWindowIndex(1)
+
+WebUI.waitForElementVisible(findTestObject('Object Repository/Project settings/Project Settings Title'), timeout)
+
+CustomKeywords.'kms.turing.katalon.plugins.assertj.StringAssert.equals'(WebUI.getUrl(), expectedUrl, false, '', FailureHandling.STOP_ON_FAILURE)
 

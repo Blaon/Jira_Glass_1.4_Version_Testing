@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>SystemAdminSchemeLinks</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>f3233ab5-0267-4122-8316-c0277a6643a4</testCaseGuid>
+   <variable>
+      <defaultValue>''</defaultValue>
+      <description></description>
+      <id>07df130c-a3c5-47e8-9e3a-0468ada1fe6d</id>
+      <masked>false</masked>
+      <name>xpath</name>
+   </variable>
+   <variable>
+      <defaultValue>GlobalVariable.Timeout</defaultValue>
+      <description></description>
+      <id>e56f9536-3660-470d-98c8-f2e679e00f98</id>
+      <masked>false</masked>
+      <name>timeout</name>
+   </variable>
+</TestCaseEntity>

@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>UserSchemeLinks</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>40fb42f7-db24-4a37-a8b7-e25ea9a8768e</testCaseGuid>
+   <variable>
+      <defaultValue>''</defaultValue>
+      <description></description>
+      <id>9c8624f3-9b5a-4766-a79c-62ed796b4666</id>
+      <masked>false</masked>
+      <name>xpath</name>
+   </variable>
+   <variable>
+      <defaultValue>GlobalVariable.Timeout</defaultValue>
+      <description></description>
+      <id>751d793a-63ea-4185-bc12-187e43b58600</id>
+      <masked>false</masked>
+      <name>timeout</name>
+   </variable>
+</TestCaseEntity>

@@ -1,0 +1,449 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuites name="short link tests" time="52.545" tests="4" failures="0" errors="4">
+   <testsuite name="short link tests" tests="4" failures="0" errors="4" time="52.545" timestamp="2020-09-16 08:07:39" hostname="ilove - DESKTOP-AIUFI3G" id="Test Suites/short link tests">
+      <properties>
+         <property name="deviceName" value=""/>
+         <property name="devicePlatform" value=""/>
+         <property name="logFolder" value="C:\\Users\\ilove\\git\\Jira_Glass_1.4_Version_Testing\\Reports\\20200916_080737\\short link tests\\20200916_080737"/>
+         <property name="logFiles" value="C:\\Users\\ilove\\git\\Jira_Glass_1.4_Version_Testing\\Reports\\20200916_080737\\short link tests\\20200916_080737\\execution0.log"/>
+         <property name="attachments" value=""/>
+         <property name="hostName" value="ilove - DESKTOP-AIUFI3G"/>
+         <property name="os" value="Windows 10 64bit"/>
+         <property name="katalonVersion" value="7.6.6.205"/>
+         <property name="browser" value="Chrome 85.0.4183.102"/>
+         <property name="hostAddress" value="192.168.0.106"/>
+         <property name="sessionId" value="177918198597a6b5243efe0da1624be0"/>
+         <property name="seleniumVersion" value="3.141.59"/>
+         <property name="proxyInformation" value="ProxyInformation { proxyOption=NO_PROXY, proxyServerType=HTTP, username=, password=********, proxyServerAddress=, proxyServerPort=0, executionList=&quot;&quot;, isApplyToDesiredCapabilities=true }"/>
+         <property name="platform" value="Windows 10"/>
+      </properties>
+      <testcase name="Test Cases/SystemAdminPermissions" time="14.539" classname="Test Cases/SystemAdminPermissions" status="ERROR">
+         <error type="ERROR" message="Test Cases/SystemAdminPermissions FAILED.
+Reason:
+groovy.lang.MissingPropertyException: No such property: tabXpath for class: Script1600160745404
+	at SystemAdminPermissions.run(SystemAdminPermissions:35)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:339)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:330)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:309)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:301)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:235)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestCaseMainPhase(TestSuiteExecutor.java:191)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:141)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:90)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:157)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1600236457956.run(TempTestSuite1600236457956.groovy:39)
+"/>
+         <system-out><![CDATA[2020-09-16 08:07:39 - [TEST_CASE][ERROR] - Test Cases/SystemAdminPermissions: Test Cases/SystemAdminPermissions FAILED.
+Reason:
+groovy.lang.MissingPropertyException: No such property: tabXpath for class: Script1600160745404
+	at SystemAdminPermissions.run(SystemAdminPermissions:35)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:339)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:330)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:309)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:301)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:235)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestCaseMainPhase(TestSuiteExecutor.java:191)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:141)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:90)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:157)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1600236457956.run(TempTestSuite1600236457956.groovy:39)
+
+
+2020-09-16 08:07:40 - [TEST_STEP][PASSED] - xpath = "//span[@class='aui-icon aui-icon-small aui-iconfont-sidebar-link glass-middle-position']/ancestor::a[@href='" + root + "']": null
+
+2020-09-16 08:07:40 - [TEST_STEP][PASSED] - tObject = new com.kms.katalon.core.testobject.TestObject(sortCut): null
+
+2020-09-16 08:07:40 - [TEST_STEP][PASSED] - tObject.addProperty("xpath", EQUALS, xpath): null
+
+2020-09-16 08:07:40 - [TEST_STEP][PASSED] - tab = new com.kms.katalon.core.testobject.TestObject(sortCut): null
+
+2020-09-16 08:07:40 - [TEST_STEP][PASSED] - tObject.addProperty("xpath", EQUALS, clickableTab): null
+
+2020-09-16 08:07:40 - [TEST_STEP][PASSED] - topTestKeywords.Login.openBrowser(): topTestKeywords.Login.openBrowser is PASSED
+
+2020-09-16 08:07:40 - [MESSAGE][INFO] - Starting 'Chrome' driver
+
+2020-09-16 08:07:40 - [MESSAGE][INFO] - Action delay is set to 0 milliseconds
+
+2020-09-16 08:07:44 - [MESSAGE][PASSED] - Browser is opened with url: ''
+
+2020-09-16 08:07:46 - [MESSAGE][PASSED] - Current window maximized
+
+2020-09-16 08:07:47 - [MESSAGE][PASSED] - Navigate to 'https://jira2.codecool.codecanvas.hu' successfully
+
+2020-09-16 08:07:47 - [MESSAGE][PASSED] - topTestKeywords.Login.openBrowser is PASSED
+
+2020-09-16 08:07:47 - [TEST_STEP][PASSED] - topTestKeywords.Login.loginAsUser(SystemAdminUsername, SystemAdminPassword): topTestKeywords.Login.loginAsUser is PASSED
+
+2020-09-16 08:07:48 - [MESSAGE][PASSED] - Text 'codecooladmin' is set on object 'Object Repository/Page_System Dashboard - Jira/Username Field'
+
+2020-09-16 08:07:49 - [MESSAGE][PASSED] - Text '2019Aprilis1' is set on object 'Object Repository/Page_System Dashboard - Jira/Password Field'
+
+2020-09-16 08:07:49 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_System Dashboard - Jira/Login Button' is clicked on
+
+2020-09-16 08:07:52 - [MESSAGE][PASSED] - Object 'Object Repository/Page_System Dashboard - Jira/User Avatar' is visible
+
+2020-09-16 08:07:52 - [MESSAGE][PASSED] - topTestKeywords.Login.loginAsUser is PASSED
+
+2020-09-16 08:07:52 - [TEST_STEP][PASSED] - navigateToUrl(BaseURL + "/projects/TWT?selectedItem=com.codecanvas.glass:glass"): Navigate to 'https://jira2.codecool.codecanvas.hu/projects/TWT?selectedItem=com.codecanvas.glass:glass' successfully
+
+2020-09-16 08:07:54 - [MESSAGE][PASSED] - Navigate to 'https://jira2.codecool.codecanvas.hu/projects/TWT?selectedItem=com.codecanvas.glass:glass' successfully
+
+2020-09-16 08:07:54 - [TEST_STEP][PASSED] - println(tabXpath): null]]></system-out>
+         <system-err><![CDATA[2020-09-16 08:07:39 - [TEST_CASE][ERROR] - Test Cases/SystemAdminPermissions: Test Cases/SystemAdminPermissions FAILED.
+Reason:
+groovy.lang.MissingPropertyException: No such property: tabXpath for class: Script1600160745404
+	at SystemAdminPermissions.run(SystemAdminPermissions:35)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:339)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:330)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:309)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:301)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:235)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestCaseMainPhase(TestSuiteExecutor.java:191)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:141)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:90)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:157)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1600236457956.run(TempTestSuite1600236457956.groovy:39)]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/SystemAdminPermissions" time="12.234" classname="Test Cases/SystemAdminPermissions" status="ERROR">
+         <error type="ERROR" message="Test Cases/SystemAdminPermissions FAILED.
+Reason:
+groovy.lang.MissingPropertyException: No such property: tabXpath for class: Script1600160745404
+	at SystemAdminPermissions.run(SystemAdminPermissions:35)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:339)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:330)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:309)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:301)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:235)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestCaseMainPhase(TestSuiteExecutor.java:191)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:141)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:90)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:157)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1600236457956.run(TempTestSuite1600236457956.groovy:39)
+"/>
+         <system-out><![CDATA[2020-09-16 08:07:54 - [TEST_CASE][ERROR] - Test Cases/SystemAdminPermissions: Test Cases/SystemAdminPermissions FAILED.
+Reason:
+groovy.lang.MissingPropertyException: No such property: tabXpath for class: Script1600160745404
+	at SystemAdminPermissions.run(SystemAdminPermissions:35)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:339)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:330)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:309)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:301)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:235)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestCaseMainPhase(TestSuiteExecutor.java:191)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:141)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:90)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:157)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1600236457956.run(TempTestSuite1600236457956.groovy:39)
+
+
+2020-09-16 08:07:54 - [TEST_STEP][PASSED] - xpath = "//span[@class='aui-icon aui-icon-small aui-iconfont-sidebar-link glass-middle-position']/ancestor::a[@href='" + root + "']": null
+
+2020-09-16 08:07:54 - [TEST_STEP][PASSED] - tObject = new com.kms.katalon.core.testobject.TestObject(sortCut): null
+
+2020-09-16 08:07:54 - [TEST_STEP][PASSED] - tObject.addProperty("xpath", EQUALS, xpath): null
+
+2020-09-16 08:07:54 - [TEST_STEP][PASSED] - tab = new com.kms.katalon.core.testobject.TestObject(sortCut): null
+
+2020-09-16 08:07:54 - [TEST_STEP][PASSED] - tObject.addProperty("xpath", EQUALS, clickableTab): null
+
+2020-09-16 08:07:54 - [TEST_STEP][PASSED] - topTestKeywords.Login.openBrowser(): topTestKeywords.Login.openBrowser is PASSED
+
+2020-09-16 08:07:54 - [MESSAGE][WARNING] - A browser is already opened. Closing browser and opening a new one
+
+2020-09-16 08:07:54 - [MESSAGE][INFO] - Starting 'Chrome' driver
+
+2020-09-16 08:07:54 - [MESSAGE][INFO] - Action delay is set to 0 milliseconds
+
+2020-09-16 08:07:58 - [MESSAGE][PASSED] - Browser is opened with url: ''
+
+2020-09-16 08:08:00 - [MESSAGE][PASSED] - Current window maximized
+
+2020-09-16 08:08:01 - [MESSAGE][PASSED] - Navigate to 'https://jira2.codecool.codecanvas.hu' successfully
+
+2020-09-16 08:08:01 - [MESSAGE][PASSED] - topTestKeywords.Login.openBrowser is PASSED
+
+2020-09-16 08:08:01 - [TEST_STEP][PASSED] - topTestKeywords.Login.loginAsUser(SystemAdminUsername, SystemAdminPassword): topTestKeywords.Login.loginAsUser is PASSED
+
+2020-09-16 08:08:01 - [MESSAGE][PASSED] - Text 'codecooladmin' is set on object 'Object Repository/Page_System Dashboard - Jira/Username Field'
+
+2020-09-16 08:08:02 - [MESSAGE][PASSED] - Text '2019Aprilis1' is set on object 'Object Repository/Page_System Dashboard - Jira/Password Field'
+
+2020-09-16 08:08:02 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_System Dashboard - Jira/Login Button' is clicked on
+
+2020-09-16 08:08:04 - [MESSAGE][PASSED] - Object 'Object Repository/Page_System Dashboard - Jira/User Avatar' is visible
+
+2020-09-16 08:08:04 - [MESSAGE][PASSED] - topTestKeywords.Login.loginAsUser is PASSED
+
+2020-09-16 08:08:04 - [TEST_STEP][PASSED] - navigateToUrl(BaseURL + "/projects/TWT?selectedItem=com.codecanvas.glass:glass"): Navigate to 'https://jira2.codecool.codecanvas.hu/projects/TWT?selectedItem=com.codecanvas.glass:glass' successfully
+
+2020-09-16 08:08:06 - [MESSAGE][PASSED] - Navigate to 'https://jira2.codecool.codecanvas.hu/projects/TWT?selectedItem=com.codecanvas.glass:glass' successfully
+
+2020-09-16 08:08:06 - [TEST_STEP][PASSED] - println(tabXpath): null]]></system-out>
+         <system-err><![CDATA[2020-09-16 08:07:54 - [TEST_CASE][ERROR] - Test Cases/SystemAdminPermissions: Test Cases/SystemAdminPermissions FAILED.
+Reason:
+groovy.lang.MissingPropertyException: No such property: tabXpath for class: Script1600160745404
+	at SystemAdminPermissions.run(SystemAdminPermissions:35)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:339)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:330)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:309)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:301)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:235)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestCaseMainPhase(TestSuiteExecutor.java:191)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:141)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:90)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:157)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1600236457956.run(TempTestSuite1600236457956.groovy:39)]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/SystemAdminPermissions" time="12.344" classname="Test Cases/SystemAdminPermissions" status="ERROR">
+         <error type="ERROR" message="Test Cases/SystemAdminPermissions FAILED.
+Reason:
+groovy.lang.MissingPropertyException: No such property: tabXpath for class: Script1600160745404
+	at SystemAdminPermissions.run(SystemAdminPermissions:35)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:339)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:330)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:309)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:301)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:235)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestCaseMainPhase(TestSuiteExecutor.java:191)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:141)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:90)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:157)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1600236457956.run(TempTestSuite1600236457956.groovy:39)
+"/>
+         <system-out><![CDATA[2020-09-16 08:08:06 - [TEST_CASE][ERROR] - Test Cases/SystemAdminPermissions: Test Cases/SystemAdminPermissions FAILED.
+Reason:
+groovy.lang.MissingPropertyException: No such property: tabXpath for class: Script1600160745404
+	at SystemAdminPermissions.run(SystemAdminPermissions:35)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:339)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:330)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:309)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:301)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:235)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestCaseMainPhase(TestSuiteExecutor.java:191)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:141)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:90)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:157)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1600236457956.run(TempTestSuite1600236457956.groovy:39)
+
+
+2020-09-16 08:08:06 - [TEST_STEP][PASSED] - xpath = "//span[@class='aui-icon aui-icon-small aui-iconfont-sidebar-link glass-middle-position']/ancestor::a[@href='" + root + "']": null
+
+2020-09-16 08:08:06 - [TEST_STEP][PASSED] - tObject = new com.kms.katalon.core.testobject.TestObject(sortCut): null
+
+2020-09-16 08:08:06 - [TEST_STEP][PASSED] - tObject.addProperty("xpath", EQUALS, xpath): null
+
+2020-09-16 08:08:06 - [TEST_STEP][PASSED] - tab = new com.kms.katalon.core.testobject.TestObject(sortCut): null
+
+2020-09-16 08:08:06 - [TEST_STEP][PASSED] - tObject.addProperty("xpath", EQUALS, clickableTab): null
+
+2020-09-16 08:08:06 - [TEST_STEP][PASSED] - topTestKeywords.Login.openBrowser(): topTestKeywords.Login.openBrowser is PASSED
+
+2020-09-16 08:08:06 - [MESSAGE][WARNING] - A browser is already opened. Closing browser and opening a new one
+
+2020-09-16 08:08:07 - [MESSAGE][INFO] - Starting 'Chrome' driver
+
+2020-09-16 08:08:07 - [MESSAGE][INFO] - Action delay is set to 0 milliseconds
+
+2020-09-16 08:08:10 - [MESSAGE][PASSED] - Browser is opened with url: ''
+
+2020-09-16 08:08:12 - [MESSAGE][PASSED] - Current window maximized
+
+2020-09-16 08:08:13 - [MESSAGE][PASSED] - Navigate to 'https://jira2.codecool.codecanvas.hu' successfully
+
+2020-09-16 08:08:13 - [MESSAGE][PASSED] - topTestKeywords.Login.openBrowser is PASSED
+
+2020-09-16 08:08:13 - [TEST_STEP][PASSED] - topTestKeywords.Login.loginAsUser(SystemAdminUsername, SystemAdminPassword): topTestKeywords.Login.loginAsUser is PASSED
+
+2020-09-16 08:08:14 - [MESSAGE][PASSED] - Text 'codecooladmin' is set on object 'Object Repository/Page_System Dashboard - Jira/Username Field'
+
+2020-09-16 08:08:15 - [MESSAGE][PASSED] - Text '2019Aprilis1' is set on object 'Object Repository/Page_System Dashboard - Jira/Password Field'
+
+2020-09-16 08:08:15 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_System Dashboard - Jira/Login Button' is clicked on
+
+2020-09-16 08:08:16 - [MESSAGE][PASSED] - Object 'Object Repository/Page_System Dashboard - Jira/User Avatar' is visible
+
+2020-09-16 08:08:16 - [MESSAGE][PASSED] - topTestKeywords.Login.loginAsUser is PASSED
+
+2020-09-16 08:08:16 - [TEST_STEP][PASSED] - navigateToUrl(BaseURL + "/projects/TWT?selectedItem=com.codecanvas.glass:glass"): Navigate to 'https://jira2.codecool.codecanvas.hu/projects/TWT?selectedItem=com.codecanvas.glass:glass' successfully
+
+2020-09-16 08:08:18 - [MESSAGE][PASSED] - Navigate to 'https://jira2.codecool.codecanvas.hu/projects/TWT?selectedItem=com.codecanvas.glass:glass' successfully
+
+2020-09-16 08:08:18 - [TEST_STEP][PASSED] - println(tabXpath): null]]></system-out>
+         <system-err><![CDATA[2020-09-16 08:08:06 - [TEST_CASE][ERROR] - Test Cases/SystemAdminPermissions: Test Cases/SystemAdminPermissions FAILED.
+Reason:
+groovy.lang.MissingPropertyException: No such property: tabXpath for class: Script1600160745404
+	at SystemAdminPermissions.run(SystemAdminPermissions:35)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:339)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:330)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:309)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:301)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:235)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestCaseMainPhase(TestSuiteExecutor.java:191)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:141)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:90)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:157)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1600236457956.run(TempTestSuite1600236457956.groovy:39)]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/SystemAdminPermissions" time="12.395" classname="Test Cases/SystemAdminPermissions" status="ERROR">
+         <error type="ERROR" message="Test Cases/SystemAdminPermissions FAILED.
+Reason:
+groovy.lang.MissingPropertyException: No such property: tabXpath for class: Script1600160745404
+	at SystemAdminPermissions.run(SystemAdminPermissions:35)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:339)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:330)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:309)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:301)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:235)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestCaseMainPhase(TestSuiteExecutor.java:191)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:141)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:90)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:157)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1600236457956.run(TempTestSuite1600236457956.groovy:39)
+"/>
+         <system-out><![CDATA[2020-09-16 08:08:18 - [TEST_CASE][ERROR] - Test Cases/SystemAdminPermissions: Test Cases/SystemAdminPermissions FAILED.
+Reason:
+groovy.lang.MissingPropertyException: No such property: tabXpath for class: Script1600160745404
+	at SystemAdminPermissions.run(SystemAdminPermissions:35)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:339)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:330)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:309)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:301)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:235)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestCaseMainPhase(TestSuiteExecutor.java:191)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:141)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:90)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:157)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1600236457956.run(TempTestSuite1600236457956.groovy:39)
+
+
+2020-09-16 08:08:18 - [TEST_STEP][PASSED] - xpath = "//span[@class='aui-icon aui-icon-small aui-iconfont-sidebar-link glass-middle-position']/ancestor::a[@href='" + root + "']": null
+
+2020-09-16 08:08:18 - [TEST_STEP][PASSED] - tObject = new com.kms.katalon.core.testobject.TestObject(sortCut): null
+
+2020-09-16 08:08:18 - [TEST_STEP][PASSED] - tObject.addProperty("xpath", EQUALS, xpath): null
+
+2020-09-16 08:08:18 - [TEST_STEP][PASSED] - tab = new com.kms.katalon.core.testobject.TestObject(sortCut): null
+
+2020-09-16 08:08:18 - [TEST_STEP][PASSED] - tObject.addProperty("xpath", EQUALS, clickableTab): null
+
+2020-09-16 08:08:18 - [TEST_STEP][PASSED] - topTestKeywords.Login.openBrowser(): topTestKeywords.Login.openBrowser is PASSED
+
+2020-09-16 08:08:18 - [MESSAGE][WARNING] - A browser is already opened. Closing browser and opening a new one
+
+2020-09-16 08:08:19 - [MESSAGE][INFO] - Starting 'Chrome' driver
+
+2020-09-16 08:08:19 - [MESSAGE][INFO] - Action delay is set to 0 milliseconds
+
+2020-09-16 08:08:22 - [MESSAGE][PASSED] - Browser is opened with url: ''
+
+2020-09-16 08:08:24 - [MESSAGE][PASSED] - Current window maximized
+
+2020-09-16 08:08:25 - [MESSAGE][PASSED] - Navigate to 'https://jira2.codecool.codecanvas.hu' successfully
+
+2020-09-16 08:08:25 - [MESSAGE][PASSED] - topTestKeywords.Login.openBrowser is PASSED
+
+2020-09-16 08:08:25 - [TEST_STEP][PASSED] - topTestKeywords.Login.loginAsUser(SystemAdminUsername, SystemAdminPassword): topTestKeywords.Login.loginAsUser is PASSED
+
+2020-09-16 08:08:26 - [MESSAGE][PASSED] - Text 'codecooladmin' is set on object 'Object Repository/Page_System Dashboard - Jira/Username Field'
+
+2020-09-16 08:08:27 - [MESSAGE][PASSED] - Text '2019Aprilis1' is set on object 'Object Repository/Page_System Dashboard - Jira/Password Field'
+
+2020-09-16 08:08:27 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_System Dashboard - Jira/Login Button' is clicked on
+
+2020-09-16 08:08:28 - [MESSAGE][PASSED] - Object 'Object Repository/Page_System Dashboard - Jira/User Avatar' is visible
+
+2020-09-16 08:08:28 - [MESSAGE][PASSED] - topTestKeywords.Login.loginAsUser is PASSED
+
+2020-09-16 08:08:28 - [TEST_STEP][PASSED] - navigateToUrl(BaseURL + "/projects/TWT?selectedItem=com.codecanvas.glass:glass"): Navigate to 'https://jira2.codecool.codecanvas.hu/projects/TWT?selectedItem=com.codecanvas.glass:glass' successfully
+
+2020-09-16 08:08:31 - [MESSAGE][PASSED] - Navigate to 'https://jira2.codecool.codecanvas.hu/projects/TWT?selectedItem=com.codecanvas.glass:glass' successfully
+
+2020-09-16 08:08:31 - [TEST_STEP][PASSED] - println(tabXpath): null]]></system-out>
+         <system-err><![CDATA[2020-09-16 08:08:18 - [TEST_CASE][ERROR] - Test Cases/SystemAdminPermissions: Test Cases/SystemAdminPermissions FAILED.
+Reason:
+groovy.lang.MissingPropertyException: No such property: tabXpath for class: Script1600160745404
+	at SystemAdminPermissions.run(SystemAdminPermissions:35)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:339)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:330)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:309)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:301)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:235)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestCaseMainPhase(TestSuiteExecutor.java:191)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:141)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:90)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:157)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1600236457956.run(TempTestSuite1600236457956.groovy:39)]]></system-err>
+      </testcase>
+      <system-out><![CDATA[2020-09-16 08:07:39 - [TEST_SUITE][ERROR] - short link tests: Test Cases/SystemAdminPermissions FAILED.
+Reason:
+groovy.lang.MissingPropertyException: No such property: tabXpath for class: Script1600160745404
+	at SystemAdminPermissions.run(SystemAdminPermissions:35)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:339)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:330)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:309)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:301)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:235)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestCaseMainPhase(TestSuiteExecutor.java:191)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:141)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:90)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:157)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1600236457956.run(TempTestSuite1600236457956.groovy:39)]]></system-out>
+      <system-err><![CDATA[2020-09-16 08:07:39 - [TEST_SUITE][ERROR] - short link tests: Test Cases/SystemAdminPermissions FAILED.
+Reason:
+groovy.lang.MissingPropertyException: No such property: tabXpath for class: Script1600160745404
+	at SystemAdminPermissions.run(SystemAdminPermissions:35)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:339)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:330)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:309)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:301)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:235)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestCaseMainPhase(TestSuiteExecutor.java:191)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:141)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:90)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:157)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1600236457956.run(TempTestSuite1600236457956.groovy:39)]]></system-err>
+   </testsuite>
+</testsuites>

@@ -6,24 +6,31 @@
    <comment></comment>
    <testCaseGuid>5f2bf7e8-2529-4646-b65e-36beb2bd534b</testCaseGuid>
    <variable>
-      <defaultValue>'root'</defaultValue>
+      <defaultValue>''</defaultValue>
       <description></description>
       <id>2acb2ddf-a732-4114-9fc0-f992f631b1da</id>
       <masked>false</masked>
       <name>root</name>
    </variable>
    <variable>
-      <defaultValue>'tab'</defaultValue>
+      <defaultValue>''</defaultValue>
       <description></description>
-      <id>c76227fb-d30d-4df2-8abe-118f3484efbc</id>
+      <id>55016c45-b706-4e42-90f1-26cdf3e75a49</id>
       <masked>false</masked>
-      <name>tab</name>
+      <name>clickableTab</name>
    </variable>
    <variable>
-      <defaultValue>'expectedURL'</defaultValue>
+      <defaultValue>''</defaultValue>
       <description></description>
-      <id>b0446921-e53b-4075-a14c-b311c0c937cc</id>
+      <id>50cc4227-d15c-421a-b518-ab17557a32aa</id>
       <masked>false</masked>
       <name>expectedUrl</name>
+   </variable>
+   <variable>
+      <defaultValue>GlobalVariable.Timeout</defaultValue>
+      <description></description>
+      <id>220ff9c7-fa15-424c-afa3-31d95aedeae5</id>
+      <masked>false</masked>
+      <name>timeout</name>
    </variable>
 </TestCaseEntity>

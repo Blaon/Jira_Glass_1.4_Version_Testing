@@ -1,0 +1,333 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuites name="short link tests" time="71.661" tests="4" failures="0" errors="0">
+   <testsuite name="short link tests" tests="4" failures="0" errors="0" time="71.661" timestamp="2020-09-16 09:58:08" hostname="ilove - DESKTOP-AIUFI3G" id="Test Suites/short link tests">
+      <properties>
+         <property name="deviceName" value=""/>
+         <property name="devicePlatform" value=""/>
+         <property name="logFolder" value="C:\\Users\\ilove\\git\\Jira_Glass_1.4_Version_Testing\\Reports\\20200916_095807\\short link tests\\20200916_095807"/>
+         <property name="logFiles" value="C:\\Users\\ilove\\git\\Jira_Glass_1.4_Version_Testing\\Reports\\20200916_095807\\short link tests\\20200916_095807\\execution0.log"/>
+         <property name="attachments" value=""/>
+         <property name="hostName" value="ilove - DESKTOP-AIUFI3G"/>
+         <property name="os" value="Windows 10 64bit"/>
+         <property name="katalonVersion" value="7.6.6.205"/>
+         <property name="browser" value="Chrome 85.0.4183.102"/>
+         <property name="hostAddress" value="192.168.0.106"/>
+         <property name="sessionId" value="82ae1ad3181ab6e083d62b7856df78b2"/>
+         <property name="seleniumVersion" value="3.141.59"/>
+         <property name="proxyInformation" value="ProxyInformation { proxyOption=NO_PROXY, proxyServerType=HTTP, username=, password=********, proxyServerAddress=, proxyServerPort=0, executionList=&quot;&quot;, isApplyToDesiredCapabilities=true }"/>
+         <property name="platform" value="Windows 10"/>
+      </properties>
+      <testcase name="Test Cases/SystemAdminPermissions" time="18.476" classname="Test Cases/SystemAdminPermissions" status="PASSED">
+         <system-out><![CDATA[2020-09-16 09:58:09 - [TEST_CASE][PASSED] - Test Cases/SystemAdminPermissions: Test Cases/SystemAdminPermissions
+
+2020-09-16 09:58:09 - [TEST_STEP][PASSED] - xpath = "//span[@class='aui-icon aui-icon-small aui-iconfont-sidebar-link glass-middle-position']/ancestor::a[@href='" + root + "']": null
+
+2020-09-16 09:58:09 - [TEST_STEP][PASSED] - tObject = new com.kms.katalon.core.testobject.TestObject(sortCut): null
+
+2020-09-16 09:58:09 - [TEST_STEP][PASSED] - tObject.addProperty("xpath", EQUALS, xpath): null
+
+2020-09-16 09:58:09 - [TEST_STEP][PASSED] - tab = new com.kms.katalon.core.testobject.TestObject(clickableTab): null
+
+2020-09-16 09:58:09 - [TEST_STEP][PASSED] - tab.addProperty("xpath", EQUALS, clickableTab): null
+
+2020-09-16 09:58:09 - [TEST_STEP][PASSED] - topTestKeywords.Login.openBrowser(): topTestKeywords.Login.openBrowser is PASSED
+
+2020-09-16 09:58:10 - [MESSAGE][INFO] - Starting 'Chrome' driver
+
+2020-09-16 09:58:10 - [MESSAGE][INFO] - Action delay is set to 0 milliseconds
+
+2020-09-16 09:58:14 - [MESSAGE][PASSED] - Browser is opened with url: ''
+
+2020-09-16 09:58:16 - [MESSAGE][PASSED] - Current window maximized
+
+2020-09-16 09:58:18 - [MESSAGE][PASSED] - Navigate to 'https://jira2.codecool.codecanvas.hu' successfully
+
+2020-09-16 09:58:18 - [MESSAGE][PASSED] - topTestKeywords.Login.openBrowser is PASSED
+
+2020-09-16 09:58:18 - [TEST_STEP][PASSED] - topTestKeywords.Login.loginAsUser(SystemAdminUsername, SystemAdminPassword): topTestKeywords.Login.loginAsUser is PASSED
+
+2020-09-16 09:58:18 - [MESSAGE][PASSED] - Text 'codecooladmin' is set on object 'Object Repository/Page_System Dashboard - Jira/Username Field'
+
+2020-09-16 09:58:19 - [MESSAGE][PASSED] - Text '2019Aprilis1' is set on object 'Object Repository/Page_System Dashboard - Jira/Password Field'
+
+2020-09-16 09:58:19 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_System Dashboard - Jira/Login Button' is clicked on
+
+2020-09-16 09:58:21 - [MESSAGE][PASSED] - Object 'Object Repository/Page_System Dashboard - Jira/User Avatar' is visible
+
+2020-09-16 09:58:21 - [MESSAGE][PASSED] - topTestKeywords.Login.loginAsUser is PASSED
+
+2020-09-16 09:58:21 - [TEST_STEP][PASSED] - navigateToUrl(BaseURL + "/projects/TWT?selectedItem=com.codecanvas.glass:glass"): Navigate to 'https://jira2.codecool.codecanvas.hu/projects/TWT?selectedItem=com.codecanvas.glass:glass' successfully
+
+2020-09-16 09:58:23 - [MESSAGE][PASSED] - Navigate to 'https://jira2.codecool.codecanvas.hu/projects/TWT?selectedItem=com.codecanvas.glass:glass' successfully
+
+2020-09-16 09:58:23 - [TEST_STEP][PASSED] - waitForElementVisible(tab, 10): Object 'clickableTab' is visible
+
+2020-09-16 09:58:24 - [MESSAGE][PASSED] - Object 'clickableTab' is visible
+
+2020-09-16 09:58:24 - [TEST_STEP][PASSED] - click(tab): Object: 'clickableTab' is clicked on
+
+2020-09-16 09:58:24 - [MESSAGE][PASSED] - Object: 'clickableTab' is clicked on
+
+2020-09-16 09:58:24 - [TEST_STEP][PASSED] - verifyElementPresent(tObject, 10): Object 'sortCut' is present
+
+2020-09-16 09:58:24 - [MESSAGE][PASSED] - Object 'sortCut' is present
+
+2020-09-16 09:58:24 - [TEST_STEP][PASSED] - click(tObject): Object: 'sortCut' is clicked on
+
+2020-09-16 09:58:25 - [MESSAGE][PASSED] - Object: 'sortCut' is clicked on
+
+2020-09-16 09:58:25 - [TEST_STEP][PASSED] - switchToWindowIndex(1): Switched to window with index: '1'
+
+2020-09-16 09:58:25 - [MESSAGE][PASSED] - Switched to window with index: '1'
+
+2020-09-16 09:58:25 - [TEST_STEP][PASSED] - waitForElementVisible(findTestObject("Object Repository/Project settings/Project Settings Title"), 10): Object 'Object Repository/Project settings/Project Settings Title' is visible
+
+2020-09-16 09:58:27 - [MESSAGE][PASSED] - Object 'Object Repository/Project settings/Project Settings Title' is visible
+
+2020-09-16 09:58:27 - [TEST_STEP][PASSED] - kms.turing.katalon.plugins.assertj.StringAssert.equals(getUrl(), expectedUrl, false, "", STOP_ON_FAILURE): The tested text 'https://jira2.codecool.codecanvas.hu/secure/project/EditProject!default.jspa?pid=10112' are equal to '{https://jira2.codecool.codecanvas.hu/secure/project/EditProject!default.jspa?pid=10112}'
+
+2020-09-16 09:58:27 - [MESSAGE][PASSED] - Current window's url is: 'https://jira2.codecool.codecanvas.hu/secure/project/EditProject!default.jspa?pid=10112'
+
+2020-09-16 09:58:27 - [MESSAGE][INFO] -  with case-sensitive: false
+
+2020-09-16 09:58:27 - [MESSAGE][PASSED] - The tested text 'https://jira2.codecool.codecanvas.hu/secure/project/EditProject!default.jspa?pid=10112' are equal to '{https://jira2.codecool.codecanvas.hu/secure/project/EditProject!default.jspa?pid=10112}']]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/SystemAdminPermissions" time="16.898" classname="Test Cases/SystemAdminPermissions" status="PASSED">
+         <system-out><![CDATA[2020-09-16 09:58:27 - [TEST_CASE][PASSED] - Test Cases/SystemAdminPermissions: Test Cases/SystemAdminPermissions
+
+2020-09-16 09:58:27 - [TEST_STEP][PASSED] - xpath = "//span[@class='aui-icon aui-icon-small aui-iconfont-sidebar-link glass-middle-position']/ancestor::a[@href='" + root + "']": null
+
+2020-09-16 09:58:27 - [TEST_STEP][PASSED] - tObject = new com.kms.katalon.core.testobject.TestObject(sortCut): null
+
+2020-09-16 09:58:27 - [TEST_STEP][PASSED] - tObject.addProperty("xpath", EQUALS, xpath): null
+
+2020-09-16 09:58:27 - [TEST_STEP][PASSED] - tab = new com.kms.katalon.core.testobject.TestObject(clickableTab): null
+
+2020-09-16 09:58:27 - [TEST_STEP][PASSED] - tab.addProperty("xpath", EQUALS, clickableTab): null
+
+2020-09-16 09:58:27 - [TEST_STEP][PASSED] - topTestKeywords.Login.openBrowser(): topTestKeywords.Login.openBrowser is PASSED
+
+2020-09-16 09:58:27 - [MESSAGE][WARNING] - A browser is already opened. Closing browser and opening a new one
+
+2020-09-16 09:58:28 - [MESSAGE][INFO] - Starting 'Chrome' driver
+
+2020-09-16 09:58:28 - [MESSAGE][INFO] - Action delay is set to 0 milliseconds
+
+2020-09-16 09:58:31 - [MESSAGE][PASSED] - Browser is opened with url: ''
+
+2020-09-16 09:58:33 - [MESSAGE][PASSED] - Current window maximized
+
+2020-09-16 09:58:34 - [MESSAGE][PASSED] - Navigate to 'https://jira2.codecool.codecanvas.hu' successfully
+
+2020-09-16 09:58:34 - [MESSAGE][PASSED] - topTestKeywords.Login.openBrowser is PASSED
+
+2020-09-16 09:58:34 - [TEST_STEP][PASSED] - topTestKeywords.Login.loginAsUser(SystemAdminUsername, SystemAdminPassword): topTestKeywords.Login.loginAsUser is PASSED
+
+2020-09-16 09:58:35 - [MESSAGE][PASSED] - Text 'codecooladmin' is set on object 'Object Repository/Page_System Dashboard - Jira/Username Field'
+
+2020-09-16 09:58:36 - [MESSAGE][PASSED] - Text '2019Aprilis1' is set on object 'Object Repository/Page_System Dashboard - Jira/Password Field'
+
+2020-09-16 09:58:36 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_System Dashboard - Jira/Login Button' is clicked on
+
+2020-09-16 09:58:37 - [MESSAGE][PASSED] - Object 'Object Repository/Page_System Dashboard - Jira/User Avatar' is visible
+
+2020-09-16 09:58:37 - [MESSAGE][PASSED] - topTestKeywords.Login.loginAsUser is PASSED
+
+2020-09-16 09:58:37 - [TEST_STEP][PASSED] - navigateToUrl(BaseURL + "/projects/TWT?selectedItem=com.codecanvas.glass:glass"): Navigate to 'https://jira2.codecool.codecanvas.hu/projects/TWT?selectedItem=com.codecanvas.glass:glass' successfully
+
+2020-09-16 09:58:40 - [MESSAGE][PASSED] - Navigate to 'https://jira2.codecool.codecanvas.hu/projects/TWT?selectedItem=com.codecanvas.glass:glass' successfully
+
+2020-09-16 09:58:40 - [TEST_STEP][PASSED] - waitForElementVisible(tab, 10): Object 'clickableTab' is visible
+
+2020-09-16 09:58:41 - [MESSAGE][PASSED] - Object 'clickableTab' is visible
+
+2020-09-16 09:58:41 - [TEST_STEP][PASSED] - click(tab): Object: 'clickableTab' is clicked on
+
+2020-09-16 09:58:41 - [MESSAGE][PASSED] - Object: 'clickableTab' is clicked on
+
+2020-09-16 09:58:41 - [TEST_STEP][PASSED] - verifyElementPresent(tObject, 10): Object 'sortCut' is present
+
+2020-09-16 09:58:41 - [MESSAGE][PASSED] - Object 'sortCut' is present
+
+2020-09-16 09:58:41 - [TEST_STEP][PASSED] - click(tObject): Object: 'sortCut' is clicked on
+
+2020-09-16 09:58:42 - [MESSAGE][PASSED] - Object: 'sortCut' is clicked on
+
+2020-09-16 09:58:42 - [TEST_STEP][PASSED] - switchToWindowIndex(1): Switched to window with index: '1'
+
+2020-09-16 09:58:42 - [MESSAGE][PASSED] - Switched to window with index: '1'
+
+2020-09-16 09:58:42 - [TEST_STEP][PASSED] - waitForElementVisible(findTestObject("Object Repository/Project settings/Project Settings Title"), 10): Object 'Object Repository/Project settings/Project Settings Title' is visible
+
+2020-09-16 09:58:44 - [MESSAGE][PASSED] - Object 'Object Repository/Project settings/Project Settings Title' is visible
+
+2020-09-16 09:58:44 - [TEST_STEP][PASSED] - kms.turing.katalon.plugins.assertj.StringAssert.equals(getUrl(), expectedUrl, false, "", STOP_ON_FAILURE): The tested text 'https://jira2.codecool.codecanvas.hu/plugins/servlet/project-config/TWT/roles' are equal to '{https://jira2.codecool.codecanvas.hu/plugins/servlet/project-config/TWT/roles}'
+
+2020-09-16 09:58:44 - [MESSAGE][PASSED] - Current window's url is: 'https://jira2.codecool.codecanvas.hu/plugins/servlet/project-config/TWT/roles'
+
+2020-09-16 09:58:44 - [MESSAGE][INFO] -  with case-sensitive: false
+
+2020-09-16 09:58:44 - [MESSAGE][PASSED] - The tested text 'https://jira2.codecool.codecanvas.hu/plugins/servlet/project-config/TWT/roles' are equal to '{https://jira2.codecool.codecanvas.hu/plugins/servlet/project-config/TWT/roles}']]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/SystemAdminPermissions" time="18.231" classname="Test Cases/SystemAdminPermissions" status="PASSED">
+         <system-out><![CDATA[2020-09-16 09:58:44 - [TEST_CASE][PASSED] - Test Cases/SystemAdminPermissions: Test Cases/SystemAdminPermissions
+
+2020-09-16 09:58:44 - [TEST_STEP][PASSED] - xpath = "//span[@class='aui-icon aui-icon-small aui-iconfont-sidebar-link glass-middle-position']/ancestor::a[@href='" + root + "']": null
+
+2020-09-16 09:58:44 - [TEST_STEP][PASSED] - tObject = new com.kms.katalon.core.testobject.TestObject(sortCut): null
+
+2020-09-16 09:58:44 - [TEST_STEP][PASSED] - tObject.addProperty("xpath", EQUALS, xpath): null
+
+2020-09-16 09:58:44 - [TEST_STEP][PASSED] - tab = new com.kms.katalon.core.testobject.TestObject(clickableTab): null
+
+2020-09-16 09:58:44 - [TEST_STEP][PASSED] - tab.addProperty("xpath", EQUALS, clickableTab): null
+
+2020-09-16 09:58:44 - [TEST_STEP][PASSED] - topTestKeywords.Login.openBrowser(): topTestKeywords.Login.openBrowser is PASSED
+
+2020-09-16 09:58:44 - [MESSAGE][WARNING] - A browser is already opened. Closing browser and opening a new one
+
+2020-09-16 09:58:45 - [MESSAGE][INFO] - Starting 'Chrome' driver
+
+2020-09-16 09:58:45 - [MESSAGE][INFO] - Action delay is set to 0 milliseconds
+
+2020-09-16 09:58:48 - [MESSAGE][PASSED] - Browser is opened with url: ''
+
+2020-09-16 09:58:50 - [MESSAGE][PASSED] - Current window maximized
+
+2020-09-16 09:58:52 - [MESSAGE][PASSED] - Navigate to 'https://jira2.codecool.codecanvas.hu' successfully
+
+2020-09-16 09:58:52 - [MESSAGE][PASSED] - topTestKeywords.Login.openBrowser is PASSED
+
+2020-09-16 09:58:52 - [TEST_STEP][PASSED] - topTestKeywords.Login.loginAsUser(SystemAdminUsername, SystemAdminPassword): topTestKeywords.Login.loginAsUser is PASSED
+
+2020-09-16 09:58:52 - [MESSAGE][PASSED] - Text 'codecooladmin' is set on object 'Object Repository/Page_System Dashboard - Jira/Username Field'
+
+2020-09-16 09:58:53 - [MESSAGE][PASSED] - Text '2019Aprilis1' is set on object 'Object Repository/Page_System Dashboard - Jira/Password Field'
+
+2020-09-16 09:58:53 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_System Dashboard - Jira/Login Button' is clicked on
+
+2020-09-16 09:58:56 - [MESSAGE][PASSED] - Object 'Object Repository/Page_System Dashboard - Jira/User Avatar' is visible
+
+2020-09-16 09:58:56 - [MESSAGE][PASSED] - topTestKeywords.Login.loginAsUser is PASSED
+
+2020-09-16 09:58:56 - [TEST_STEP][PASSED] - navigateToUrl(BaseURL + "/projects/TWT?selectedItem=com.codecanvas.glass:glass"): Navigate to 'https://jira2.codecool.codecanvas.hu/projects/TWT?selectedItem=com.codecanvas.glass:glass' successfully
+
+2020-09-16 09:58:58 - [MESSAGE][PASSED] - Navigate to 'https://jira2.codecool.codecanvas.hu/projects/TWT?selectedItem=com.codecanvas.glass:glass' successfully
+
+2020-09-16 09:58:58 - [TEST_STEP][PASSED] - waitForElementVisible(tab, 10): Object 'clickableTab' is visible
+
+2020-09-16 09:58:59 - [MESSAGE][PASSED] - Object 'clickableTab' is visible
+
+2020-09-16 09:58:59 - [TEST_STEP][PASSED] - click(tab): Object: 'clickableTab' is clicked on
+
+2020-09-16 09:58:59 - [MESSAGE][PASSED] - Object: 'clickableTab' is clicked on
+
+2020-09-16 09:58:59 - [TEST_STEP][PASSED] - verifyElementPresent(tObject, 10): Object 'sortCut' is present
+
+2020-09-16 09:59:00 - [MESSAGE][PASSED] - Object 'sortCut' is present
+
+2020-09-16 09:59:00 - [TEST_STEP][PASSED] - click(tObject): Object: 'sortCut' is clicked on
+
+2020-09-16 09:59:00 - [MESSAGE][PASSED] - Object: 'sortCut' is clicked on
+
+2020-09-16 09:59:00 - [TEST_STEP][PASSED] - switchToWindowIndex(1): Switched to window with index: '1'
+
+2020-09-16 09:59:00 - [MESSAGE][PASSED] - Switched to window with index: '1'
+
+2020-09-16 09:59:00 - [TEST_STEP][PASSED] - waitForElementVisible(findTestObject("Object Repository/Project settings/Project Settings Title"), 10): Object 'Object Repository/Project settings/Project Settings Title' is visible
+
+2020-09-16 09:59:02 - [MESSAGE][PASSED] - Object 'Object Repository/Project settings/Project Settings Title' is visible
+
+2020-09-16 09:59:02 - [TEST_STEP][PASSED] - kms.turing.katalon.plugins.assertj.StringAssert.equals(getUrl(), expectedUrl, false, "", STOP_ON_FAILURE): The tested text 'https://jira2.codecool.codecanvas.hu/plugins/servlet/project-config/TWT/permissions' are equal to '{https://jira2.codecool.codecanvas.hu/plugins/servlet/project-config/TWT/permissions}'
+
+2020-09-16 09:59:02 - [MESSAGE][PASSED] - Current window's url is: 'https://jira2.codecool.codecanvas.hu/plugins/servlet/project-config/TWT/permissions'
+
+2020-09-16 09:59:02 - [MESSAGE][INFO] -  with case-sensitive: false
+
+2020-09-16 09:59:02 - [MESSAGE][PASSED] - The tested text 'https://jira2.codecool.codecanvas.hu/plugins/servlet/project-config/TWT/permissions' are equal to '{https://jira2.codecool.codecanvas.hu/plugins/servlet/project-config/TWT/permissions}']]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/SystemAdminPermissions" time="16.846" classname="Test Cases/SystemAdminPermissions" status="PASSED">
+         <system-out><![CDATA[2020-09-16 09:59:02 - [TEST_CASE][PASSED] - Test Cases/SystemAdminPermissions: Test Cases/SystemAdminPermissions
+
+2020-09-16 09:59:02 - [TEST_STEP][PASSED] - xpath = "//span[@class='aui-icon aui-icon-small aui-iconfont-sidebar-link glass-middle-position']/ancestor::a[@href='" + root + "']": null
+
+2020-09-16 09:59:02 - [TEST_STEP][PASSED] - tObject = new com.kms.katalon.core.testobject.TestObject(sortCut): null
+
+2020-09-16 09:59:02 - [TEST_STEP][PASSED] - tObject.addProperty("xpath", EQUALS, xpath): null
+
+2020-09-16 09:59:02 - [TEST_STEP][PASSED] - tab = new com.kms.katalon.core.testobject.TestObject(clickableTab): null
+
+2020-09-16 09:59:02 - [TEST_STEP][PASSED] - tab.addProperty("xpath", EQUALS, clickableTab): null
+
+2020-09-16 09:59:02 - [TEST_STEP][PASSED] - topTestKeywords.Login.openBrowser(): topTestKeywords.Login.openBrowser is PASSED
+
+2020-09-16 09:59:02 - [MESSAGE][WARNING] - A browser is already opened. Closing browser and opening a new one
+
+2020-09-16 09:59:03 - [MESSAGE][INFO] - Starting 'Chrome' driver
+
+2020-09-16 09:59:03 - [MESSAGE][INFO] - Action delay is set to 0 milliseconds
+
+2020-09-16 09:59:06 - [MESSAGE][PASSED] - Browser is opened with url: ''
+
+2020-09-16 09:59:08 - [MESSAGE][PASSED] - Current window maximized
+
+2020-09-16 09:59:10 - [MESSAGE][PASSED] - Navigate to 'https://jira2.codecool.codecanvas.hu' successfully
+
+2020-09-16 09:59:10 - [MESSAGE][PASSED] - topTestKeywords.Login.openBrowser is PASSED
+
+2020-09-16 09:59:10 - [TEST_STEP][PASSED] - topTestKeywords.Login.loginAsUser(SystemAdminUsername, SystemAdminPassword): topTestKeywords.Login.loginAsUser is PASSED
+
+2020-09-16 09:59:10 - [MESSAGE][PASSED] - Text 'codecooladmin' is set on object 'Object Repository/Page_System Dashboard - Jira/Username Field'
+
+2020-09-16 09:59:11 - [MESSAGE][PASSED] - Text '2019Aprilis1' is set on object 'Object Repository/Page_System Dashboard - Jira/Password Field'
+
+2020-09-16 09:59:11 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_System Dashboard - Jira/Login Button' is clicked on
+
+2020-09-16 09:59:13 - [MESSAGE][PASSED] - Object 'Object Repository/Page_System Dashboard - Jira/User Avatar' is visible
+
+2020-09-16 09:59:13 - [MESSAGE][PASSED] - topTestKeywords.Login.loginAsUser is PASSED
+
+2020-09-16 09:59:13 - [TEST_STEP][PASSED] - navigateToUrl(BaseURL + "/projects/TWT?selectedItem=com.codecanvas.glass:glass"): Navigate to 'https://jira2.codecool.codecanvas.hu/projects/TWT?selectedItem=com.codecanvas.glass:glass' successfully
+
+2020-09-16 09:59:15 - [MESSAGE][PASSED] - Navigate to 'https://jira2.codecool.codecanvas.hu/projects/TWT?selectedItem=com.codecanvas.glass:glass' successfully
+
+2020-09-16 09:59:15 - [TEST_STEP][PASSED] - waitForElementVisible(tab, 10): Object 'clickableTab' is visible
+
+2020-09-16 09:59:16 - [MESSAGE][PASSED] - Object 'clickableTab' is visible
+
+2020-09-16 09:59:16 - [TEST_STEP][PASSED] - click(tab): Object: 'clickableTab' is clicked on
+
+2020-09-16 09:59:16 - [MESSAGE][PASSED] - Object: 'clickableTab' is clicked on
+
+2020-09-16 09:59:16 - [TEST_STEP][PASSED] - verifyElementPresent(tObject, 10): Object 'sortCut' is present
+
+2020-09-16 09:59:17 - [MESSAGE][PASSED] - Object 'sortCut' is present
+
+2020-09-16 09:59:17 - [TEST_STEP][PASSED] - click(tObject): Object: 'sortCut' is clicked on
+
+2020-09-16 09:59:17 - [MESSAGE][PASSED] - Object: 'sortCut' is clicked on
+
+2020-09-16 09:59:17 - [TEST_STEP][PASSED] - switchToWindowIndex(1): Switched to window with index: '1'
+
+2020-09-16 09:59:17 - [MESSAGE][PASSED] - Switched to window with index: '1'
+
+2020-09-16 09:59:17 - [TEST_STEP][PASSED] - waitForElementVisible(findTestObject("Object Repository/Project settings/Project Settings Title"), 10): Object 'Object Repository/Project settings/Project Settings Title' is visible
+
+2020-09-16 09:59:19 - [MESSAGE][PASSED] - Object 'Object Repository/Project settings/Project Settings Title' is visible
+
+2020-09-16 09:59:19 - [TEST_STEP][PASSED] - kms.turing.katalon.plugins.assertj.StringAssert.equals(getUrl(), expectedUrl, false, "", STOP_ON_FAILURE): The tested text 'https://jira2.codecool.codecanvas.hu/plugins/servlet/project-config/TWT/notifications' are equal to '{https://jira2.codecool.codecanvas.hu/plugins/servlet/project-config/TWT/notifications}'
+
+2020-09-16 09:59:19 - [MESSAGE][PASSED] - Current window's url is: 'https://jira2.codecool.codecanvas.hu/plugins/servlet/project-config/TWT/notifications'
+
+2020-09-16 09:59:19 - [MESSAGE][INFO] -  with case-sensitive: false
+
+2020-09-16 09:59:19 - [MESSAGE][PASSED] - The tested text 'https://jira2.codecool.codecanvas.hu/plugins/servlet/project-config/TWT/notifications' are equal to '{https://jira2.codecool.codecanvas.hu/plugins/servlet/project-config/TWT/notifications}']]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <system-out><![CDATA[2020-09-16 09:58:08 - [TEST_SUITE][PASSED] - short link tests: Test Cases/SystemAdminPermissions]]></system-out>
+      <system-err><![CDATA[]]></system-err>
+   </testsuite>
+</testsuites>

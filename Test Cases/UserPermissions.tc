@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>UserPermissions</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>dab5b7bf-e184-4b6b-8c6a-7fbf41feef03</testCaseGuid>
+   <variable>
+      <defaultValue>''</defaultValue>
+      <description></description>
+      <id>e4985c81-4382-4a50-8e35-96e68e9ccbc5</id>
+      <masked>false</masked>
+      <name>root</name>
+   </variable>
+   <variable>
+      <defaultValue>''</defaultValue>
+      <description></description>
+      <id>0a444960-c33a-4cec-b009-1aa57e5fb9db</id>
+      <masked>false</masked>
+      <name>clickableTab</name>
+   </variable>
+   <variable>
+      <defaultValue>''</defaultValue>
+      <description></description>
+      <id>34b71224-9bfb-4415-9fd4-b6af255f289e</id>
+      <masked>false</masked>
+      <name>expectedUrl</name>
+   </variable>
+   <variable>
+      <defaultValue>GlobalVariable.Timeout</defaultValue>
+      <description></description>
+      <id>ae4d20b4-d632-4dc9-9b67-ec9880367181</id>
+      <masked>false</masked>
+      <name>timeout</name>
+   </variable>
+</TestCaseEntity>

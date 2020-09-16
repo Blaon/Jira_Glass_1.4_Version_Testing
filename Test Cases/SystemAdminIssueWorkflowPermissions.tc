@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>SystemAdminIssueWorkflowPermissions</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>46d79b45-0d0c-4ebb-912d-2c0ae6291e74</testCaseGuid>
+   <variable>
+      <defaultValue>''</defaultValue>
+      <description></description>
+      <id>a93a5f54-2b3b-4a35-aced-bc7b0b2c309c</id>
+      <masked>false</masked>
+      <name>root</name>
+   </variable>
+   <variable>
+      <defaultValue>''</defaultValue>
+      <description></description>
+      <id>ab77d39b-048d-48e9-a0c6-1b543b27f5cb</id>
+      <masked>false</masked>
+      <name>expectedUrl</name>
+   </variable>
+   <variable>
+      <defaultValue>GlobalVariable.Timeout</defaultValue>
+      <description></description>
+      <id>2c4b4522-0589-48ff-84c9-0f6ed7763d17</id>
+      <masked>false</masked>
+      <name>timeout</name>
+   </variable>
+</TestCaseEntity>
