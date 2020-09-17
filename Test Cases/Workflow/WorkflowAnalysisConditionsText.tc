@@ -5,4 +5,11 @@
    <tag></tag>
    <comment></comment>
    <testCaseGuid>8afd1db9-401b-426d-a9e2-cc30063489bc</testCaseGuid>
+   <variable>
+      <defaultValue>GlobalVariable.Timeout</defaultValue>
+      <description></description>
+      <id>2462f0f1-2333-4a0f-b442-5675792feefe</id>
+      <masked>false</masked>
+      <name>timeout</name>
+   </variable>
 </TestCaseEntity>

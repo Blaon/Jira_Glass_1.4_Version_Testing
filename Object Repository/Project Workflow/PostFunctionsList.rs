@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>PostFunctionsList</name>
+   <tag></tag>
+   <elementGuidId>782515b9-6c2e-4f7a-8826-1b2bc2d9db8f</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>XPATH</key>
+         <value>//tr[@class='transition-details-row']/td/div/div[@id='glass-transitions-postfunctions-panel-1']/div/div/ol/li</value>
+      </entry>
+      <entry>
+         <key>BASIC</key>
+         <value></value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>XPATH</selectorMethod>
+   <useRalativeImagePath>false</useRalativeImagePath>
+</WebElementEntity>

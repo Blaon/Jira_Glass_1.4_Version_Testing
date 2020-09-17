@@ -15,3 +15,17 @@ import com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords as WebUI
 import com.kms.katalon.core.windows.keyword.WindowsBuiltinKeywords as Windows
 import internal.GlobalVariable as GlobalVariable
 
+CustomKeywords.'topTestKeywords.Login.openBrowser'()
+
+CustomKeywords.'topTestKeywords.Login.loginAsUser'(GlobalVariable.SystemAdminUsername, GlobalVariable.SystemAdminPassword)
+
+CustomKeywords.'topTestKeywords.Login.goToTheWorkflow'(timeout)
+
+WebUI.click(findTestObject('Object Repository/Project Workflow/CreateRow'))
+
+WebUI.waitForElementVisible(findTestObject('Object Repository/Project Workflow/ValidatorTable'), timeout)
+
+WebUI.click(findTestObject('Object Repository/Project Workflow/ValidatorTable'))
+
+CustomKeywords.'kms.turing.katalon.plugins.assertj.NumberAssert.equals'(CustomKeywords.'topTestKeywords.Login.getWebElementsAsListSize'("//div[@id='glass-transitions-validators-panel-1']/div/div/ol/li"), "1", '')
+

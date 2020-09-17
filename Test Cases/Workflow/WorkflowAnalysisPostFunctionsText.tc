@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>WorkflowAnalysisPostFunctionsText</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>0879d9ba-6a77-42f6-b743-796193e99204</testCaseGuid>
+   <variable>
+      <defaultValue>GlobalVariable.Timeout</defaultValue>
+      <description></description>
+      <id>f3ee5ae1-33ad-4825-8a02-74d3fe9277cc</id>
+      <masked>false</masked>
+      <name>timeout</name>
+   </variable>
+   <variable>
+      <defaultValue>''</defaultValue>
+      <description></description>
+      <id>bf0c5672-b817-400c-bfc6-fc19bba9bc58</id>
+      <masked>false</masked>
+      <name>rowXpath</name>
+   </variable>
+   <variable>
+      <defaultValue>''</defaultValue>
+      <description></description>
+      <id>cbbf7116-25d3-4880-8b01-fe0c78425fb1</id>
+      <masked>false</masked>
+      <name>xpath</name>
+   </variable>
+   <variable>
+      <defaultValue>''</defaultValue>
+      <description></description>
+      <id>ff1161a3-93c7-4c34-a304-29ae75bd6af9</id>
+      <masked>false</masked>
+      <name>expectedNumber</name>
+   </variable>
+</TestCaseEntity>

@@ -17,6 +17,10 @@ import com.kms.katalon.core.testobject.TestObject
 import com.kms.katalon.core.webservice.keyword.WSBuiltInKeywords as WS
 import com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords as WebUI
 import com.kms.katalon.core.windows.keyword.WindowsBuiltinKeywords as Windows
+import org.openqa.selenium.By
+import org.openqa.selenium.WebDriver
+import org.openqa.selenium.WebElement
+import com.kms.katalon.core.webui.driver.DriverFactory
 
 import internal.GlobalVariable
 
@@ -50,4 +54,12 @@ public class Login {
 		WebUI.click(findTestObject('Object Repository/Page_ToP Week6 Test - Jira/Issue Type'))
 		WebUI.waitForElementVisible(findTestObject('Object Repository/Project Workflow/WorkflowTransitionsTitle'), timeout)
 	}
+
+	@Keyword
+	String getWebElementsAsListSize(String xpath) {
+		WebDriver webDriver = DriverFactory.getWebDriver()
+		List<WebElement> elements = webDriver.findElements(By.xpath(xpath))
+		return elements.size().toString()
+	}
 }
+

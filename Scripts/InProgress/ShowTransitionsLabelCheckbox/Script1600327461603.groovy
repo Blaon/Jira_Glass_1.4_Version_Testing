@@ -15,3 +15,14 @@ import com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords as WebUI
 import com.kms.katalon.core.windows.keyword.WindowsBuiltinKeywords as Windows
 import internal.GlobalVariable as GlobalVariable
 
+CustomKeywords.'topTestKeywords.Login.openBrowser'()
+
+CustomKeywords.'topTestKeywords.Login.loginAsUser'(GlobalVariable.SystemAdminUsername, GlobalVariable.SystemAdminPassword)
+
+CustomKeywords.'topTestKeywords.Login.goToTheWorkflow'(timeout)
+
+WebUI.verifyElementVisible(findTestObject('Object Repository/Project Workflow/ShowTransitionCheckbox'))
+
+WebUI.click(findTestObject('Object Repository/Project Workflow/ShowTransitionCheckbox'))
+
+WebUI.verifyElementChecked(findTestObject('Object Repository/Project Workflow/ShowTransitionCheckbox'), timeout)

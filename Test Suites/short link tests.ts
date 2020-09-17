@@ -443,8 +443,8 @@
    <testCaseLink>
       <guid>99d89688-fbd2-48da-bed7-b596139c94c7</guid>
       <isReuseDriver>false</isReuseDriver>
-      <isRun>true</isRun>
-      <testCaseId>Test Cases/InProgress/WorkflowAnalysisValidatorCounter</testCaseId>
+      <isRun>false</isRun>
+      <testCaseId>Test Cases/Workflow/WorkflowAnalysisValidatorCounter</testCaseId>
       <testDataLink>
          <combinationType>ONE</combinationType>
          <id>aa2a33c5-91e2-4dfe-84d8-60df873d595d</id>
@@ -476,8 +476,8 @@
    <testCaseLink>
       <guid>4300490a-c8e6-4083-91dd-2564b0f6e7f7</guid>
       <isReuseDriver>false</isReuseDriver>
-      <isRun>true</isRun>
-      <testCaseId>Test Cases/InProgress/WorkflowAnalysisConditionsCounter</testCaseId>
+      <isRun>false</isRun>
+      <testCaseId>Test Cases/Workflow/WorkflowAnalysisConditionsCounter</testCaseId>
       <testDataLink>
          <combinationType>ONE</combinationType>
          <id>eb85ca50-064f-45b7-977b-73a400ff389d</id>
@@ -504,6 +504,81 @@
          <type>DEFAULT</type>
          <value></value>
          <variableId>50334aff-c44c-4a74-bf57-5bd9f0a6c0ed</variableId>
+      </variableLink>
+   </testCaseLink>
+   <testCaseLink>
+      <guid>cab13769-c031-4dc4-ab74-215f7399c052</guid>
+      <isReuseDriver>false</isReuseDriver>
+      <isRun>false</isRun>
+      <testCaseId>Test Cases/Workflow/WorkflowAnalysisPostFunctionsText</testCaseId>
+      <testDataLink>
+         <combinationType>ONE</combinationType>
+         <id>36fad4e5-f317-4135-8368-3496ee87c954</id>
+         <iterationEntity>
+            <iterationType>ALL</iterationType>
+            <value></value>
+         </iterationEntity>
+         <testDataId>Data Files/PostFunctionText</testDataId>
+      </testDataLink>
+      <variableLink>
+         <testDataLinkId></testDataLinkId>
+         <type>DEFAULT</type>
+         <value></value>
+         <variableId>f3ee5ae1-33ad-4825-8a02-74d3fe9277cc</variableId>
+      </variableLink>
+      <variableLink>
+         <testDataLinkId>36fad4e5-f317-4135-8368-3496ee87c954</testDataLinkId>
+         <type>DATA_COLUMN</type>
+         <value>rowXpath</value>
+         <variableId>bf0c5672-b817-400c-bfc6-fc19bba9bc58</variableId>
+      </variableLink>
+      <variableLink>
+         <testDataLinkId>36fad4e5-f317-4135-8368-3496ee87c954</testDataLinkId>
+         <type>DATA_COLUMN</type>
+         <value>postFunctionsList</value>
+         <variableId>cbbf7116-25d3-4880-8b01-fe0c78425fb1</variableId>
+      </variableLink>
+      <variableLink>
+         <testDataLinkId>36fad4e5-f317-4135-8368-3496ee87c954</testDataLinkId>
+         <type>DATA_COLUMN</type>
+         <value>expectedNumber</value>
+         <variableId>ff1161a3-93c7-4c34-a304-29ae75bd6af9</variableId>
+      </variableLink>
+   </testCaseLink>
+   <testCaseLink>
+      <guid>f346e365-be96-43b4-9440-c21fe939a273</guid>
+      <isReuseDriver>false</isReuseDriver>
+      <isRun>false</isRun>
+      <testCaseId>Test Cases/Workflow/WorkflowAnalysisValidatorText</testCaseId>
+      <variableLink>
+         <testDataLinkId></testDataLinkId>
+         <type>DEFAULT</type>
+         <value></value>
+         <variableId>c9f60dbb-281f-4ab2-928b-de8faff7eacf</variableId>
+      </variableLink>
+   </testCaseLink>
+   <testCaseLink>
+      <guid>d972b100-0962-4da5-8c12-00ae8b443c63</guid>
+      <isReuseDriver>false</isReuseDriver>
+      <isRun>false</isRun>
+      <testCaseId>Test Cases/Workflow/WorkflowAnalysisConditionsText</testCaseId>
+      <variableLink>
+         <testDataLinkId></testDataLinkId>
+         <type>DEFAULT</type>
+         <value></value>
+         <variableId>2462f0f1-2333-4a0f-b442-5675792feefe</variableId>
+      </variableLink>
+   </testCaseLink>
+   <testCaseLink>
+      <guid>e9b26f7e-c8cd-4c73-b23c-2a5fdc3f39a5</guid>
+      <isReuseDriver>false</isReuseDriver>
+      <isRun>true</isRun>
+      <testCaseId>Test Cases/InProgress/ShowTransitionsLabelCheckbox</testCaseId>
+      <variableLink>
+         <testDataLinkId></testDataLinkId>
+         <type>DEFAULT</type>
+         <value></value>
+         <variableId>5a50b525-5df1-43c1-aa34-c0ae19d232e1</variableId>
       </variableLink>
    </testCaseLink>
 </TestSuiteEntity>

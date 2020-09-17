@@ -1,0 +1,226 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuites name="short link tests" time="24.243" tests="1" failures="1" errors="0">
+   <testsuite name="short link tests" tests="1" failures="1" errors="0" time="24.243" timestamp="2020-09-17 13:24:29" hostname="x - DESKTOP-S0L1J4E" id="Test Suites/short link tests">
+      <properties>
+         <property name="deviceName" value=""/>
+         <property name="devicePlatform" value=""/>
+         <property name="logFolder" value="C:\\Users\\x\\git\\Jira_Glass_1.4_Version_Testing\\Reports\\20200917_132422\\short link tests\\20200917_132422"/>
+         <property name="logFiles" value="C:\\Users\\x\\git\\Jira_Glass_1.4_Version_Testing\\Reports\\20200917_132422\\short link tests\\20200917_132422\\execution0.log"/>
+         <property name="attachments" value=""/>
+         <property name="hostName" value="x - DESKTOP-S0L1J4E"/>
+         <property name="os" value="Windows 10 64bit"/>
+         <property name="katalonVersion" value="7.6.6.205"/>
+         <property name="browser" value="Chrome 85.0.4183.102"/>
+         <property name="hostAddress" value="192.168.56.1"/>
+         <property name="sessionId" value="401bc51ec0b8aacd1842e929a6b6a6a0"/>
+         <property name="seleniumVersion" value="3.141.59"/>
+         <property name="proxyInformation" value="ProxyInformation { proxyOption=NO_PROXY, proxyServerType=HTTP, username=, password=********, proxyServerAddress=, proxyServerPort=0, executionList=&quot;&quot;, isApplyToDesiredCapabilities=true }"/>
+         <property name="platform" value="Windows 10"/>
+      </properties>
+      <testcase name="Test Cases/InProgress/WorkflowAnalysisValidatorText" time="23.129" classname="Test Cases/InProgress/WorkflowAnalysisValidatorText" status="FAILED">
+         <failure type="FAILED" message="Test Cases/InProgress/WorkflowAnalysisValidatorText FAILED.
+Reason:
+com.kms.katalon.core.exception.StepFailedException: .
+Expected: equals to 1.
+Actual: 1
+	at com.kms.katalon.core.util.KeywordUtil.markFailedAndStop(KeywordUtil.java:28)
+	at com.kms.katalon.core.util.KeywordUtil$markFailedAndStop$0.call(Unknown Source)
+	at kms.turing.katalon.plugins.assertj.GenericAssert.handleError(GenericAssert.groovy:71)
+	at kms.turing.katalon.plugins.assertj.GenericAssert.handleError(GenericAssert.groovy:85)
+	at kms.turing.katalon.plugins.assertj.NumberAssert.equals(NumberAssert.groovy:195)
+	at kms.turing.katalon.plugins.assertj.NumberAssert.equals(NumberAssert.groovy)
+	at kms.turing.katalon.plugins.assertj.GenericAssert.invokeMethod(GenericAssert.groovy)
+	at com.kms.katalon.core.main.CustomKeywordDelegatingMetaClass.invokeStaticMethod(CustomKeywordDelegatingMetaClass.java:50)
+	at WorkflowAnalysisValidatorText.run(WorkflowAnalysisValidatorText:30)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:339)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:330)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:309)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:301)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:235)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestCaseMainPhase(TestSuiteExecutor.java:191)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:141)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:90)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:157)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1600341862666.run(TempTestSuite1600341862666.groovy:39)
+"/>
+         <system-out><![CDATA[2020-09-17 13:24:30 - [TEST_CASE][FAILED] - Test Cases/InProgress/WorkflowAnalysisValidatorText: Test Cases/InProgress/WorkflowAnalysisValidatorText FAILED.
+Reason:
+com.kms.katalon.core.exception.StepFailedException: .
+Expected: equals to 1.
+Actual: 1
+	at com.kms.katalon.core.util.KeywordUtil.markFailedAndStop(KeywordUtil.java:28)
+	at com.kms.katalon.core.util.KeywordUtil$markFailedAndStop$0.call(Unknown Source)
+	at kms.turing.katalon.plugins.assertj.GenericAssert.handleError(GenericAssert.groovy:71)
+	at kms.turing.katalon.plugins.assertj.GenericAssert.handleError(GenericAssert.groovy:85)
+	at kms.turing.katalon.plugins.assertj.NumberAssert.equals(NumberAssert.groovy:195)
+	at kms.turing.katalon.plugins.assertj.NumberAssert.equals(NumberAssert.groovy)
+	at kms.turing.katalon.plugins.assertj.GenericAssert.invokeMethod(GenericAssert.groovy)
+	at com.kms.katalon.core.main.CustomKeywordDelegatingMetaClass.invokeStaticMethod(CustomKeywordDelegatingMetaClass.java:50)
+	at WorkflowAnalysisValidatorText.run(WorkflowAnalysisValidatorText:30)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:339)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:330)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:309)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:301)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:235)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestCaseMainPhase(TestSuiteExecutor.java:191)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:141)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:90)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:157)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1600341862666.run(TempTestSuite1600341862666.groovy:39)
+
+
+2020-09-17 13:24:30 - [TEST_STEP][PASSED] - topTestKeywords.Login.openBrowser(): topTestKeywords.Login.openBrowser is PASSED
+
+2020-09-17 13:24:31 - [MESSAGE][INFO] - Starting 'Chrome' driver
+
+2020-09-17 13:24:31 - [MESSAGE][INFO] - Action delay is set to 0 milliseconds
+
+2020-09-17 13:24:35 - [MESSAGE][PASSED] - Browser is opened with url: ''
+
+2020-09-17 13:24:37 - [MESSAGE][PASSED] - Current window maximized
+
+2020-09-17 13:24:40 - [MESSAGE][PASSED] - Navigate to 'https://jira2.codecool.codecanvas.hu' successfully
+
+2020-09-17 13:24:40 - [MESSAGE][PASSED] - topTestKeywords.Login.openBrowser is PASSED
+
+2020-09-17 13:24:40 - [TEST_STEP][PASSED] - topTestKeywords.Login.loginAsUser(SystemAdminUsername, SystemAdminPassword): topTestKeywords.Login.loginAsUser is PASSED
+
+2020-09-17 13:24:41 - [MESSAGE][PASSED] - Text 'codecooladmin' is set on object 'Object Repository/Page_System Dashboard - Jira/Username Field'
+
+2020-09-17 13:24:41 - [MESSAGE][PASSED] - Text '2019Aprilis1' is set on object 'Object Repository/Page_System Dashboard - Jira/Password Field'
+
+2020-09-17 13:24:42 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_System Dashboard - Jira/Login Button' is clicked on
+
+2020-09-17 13:24:45 - [MESSAGE][PASSED] - Object 'Object Repository/Page_System Dashboard - Jira/User Avatar' is visible
+
+2020-09-17 13:24:45 - [MESSAGE][PASSED] - topTestKeywords.Login.loginAsUser is PASSED
+
+2020-09-17 13:24:45 - [TEST_STEP][PASSED] - topTestKeywords.Login.goToTheWorkflow(timeout): topTestKeywords.Login.goToTheWorkflow is PASSED
+
+2020-09-17 13:24:48 - [MESSAGE][PASSED] - Navigate to 'https://jira2.codecool.codecanvas.hu/projects/TWT?selectedItem=com.codecanvas.glass:glass' successfully
+
+2020-09-17 13:24:49 - [MESSAGE][PASSED] - Object 'Object Repository/Page_ToP Week6 Test - Jira/Issue Dropdown' is visible
+
+2020-09-17 13:24:49 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_ToP Week6 Test - Jira/Issue Dropdown' is clicked on
+
+2020-09-17 13:24:50 - [MESSAGE][PASSED] - Object 'Object Repository/Page_ToP Week6 Test - Jira/Issue Type' is visible
+
+2020-09-17 13:24:50 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_ToP Week6 Test - Jira/Issue Type' is clicked on
+
+2020-09-17 13:24:51 - [MESSAGE][PASSED] - Object 'Object Repository/Project Workflow/WorkflowTransitionsTitle' is visible
+
+2020-09-17 13:24:51 - [MESSAGE][PASSED] - topTestKeywords.Login.goToTheWorkflow is PASSED
+
+2020-09-17 13:24:51 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Project Workflow/CreateRow")): Object: 'Object Repository/Project Workflow/CreateRow' is clicked on
+
+2020-09-17 13:24:52 - [MESSAGE][PASSED] - Object: 'Object Repository/Project Workflow/CreateRow' is clicked on
+
+2020-09-17 13:24:52 - [TEST_STEP][PASSED] - waitForElementVisible(findTestObject("Object Repository/Project Workflow/ValidatorTable"), timeout): Object 'Object Repository/Project Workflow/ValidatorTable' is visible
+
+2020-09-17 13:24:52 - [MESSAGE][PASSED] - Object 'Object Repository/Project Workflow/ValidatorTable' is visible
+
+2020-09-17 13:24:52 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Project Workflow/ValidatorTable")): Object: 'Object Repository/Project Workflow/ValidatorTable' is clicked on
+
+2020-09-17 13:24:52 - [MESSAGE][PASSED] - Object: 'Object Repository/Project Workflow/ValidatorTable' is clicked on
+
+2020-09-17 13:24:52 - [TEST_STEP][FAILED] - kms.turing.katalon.plugins.assertj.NumberAssert.equals(topTestKeywords.Login.getWebElementsAsListSize("//div[@id='glass-transitions-validators-panel-1']/div/div/ol/li"), 1, ""): .
+Expected: equals to 1.
+Actual: 1
+
+2020-09-17 13:24:53 - [MESSAGE][PASSED] - topTestKeywords.Login.getWebElementsAsListSize is PASSED
+
+2020-09-17 13:24:53 - [MESSAGE][INFO] - 
+
+2020-09-17 13:24:53 - [MESSAGE][FAILED] - .
+Expected: equals to 1.
+Actual: 1]]></system-out>
+         <system-err><![CDATA[2020-09-17 13:24:30 - [TEST_CASE][FAILED] - Test Cases/InProgress/WorkflowAnalysisValidatorText: Test Cases/InProgress/WorkflowAnalysisValidatorText FAILED.
+Reason:
+com.kms.katalon.core.exception.StepFailedException: .
+Expected: equals to 1.
+Actual: 1
+	at com.kms.katalon.core.util.KeywordUtil.markFailedAndStop(KeywordUtil.java:28)
+	at com.kms.katalon.core.util.KeywordUtil$markFailedAndStop$0.call(Unknown Source)
+	at kms.turing.katalon.plugins.assertj.GenericAssert.handleError(GenericAssert.groovy:71)
+	at kms.turing.katalon.plugins.assertj.GenericAssert.handleError(GenericAssert.groovy:85)
+	at kms.turing.katalon.plugins.assertj.NumberAssert.equals(NumberAssert.groovy:195)
+	at kms.turing.katalon.plugins.assertj.NumberAssert.equals(NumberAssert.groovy)
+	at kms.turing.katalon.plugins.assertj.GenericAssert.invokeMethod(GenericAssert.groovy)
+	at com.kms.katalon.core.main.CustomKeywordDelegatingMetaClass.invokeStaticMethod(CustomKeywordDelegatingMetaClass.java:50)
+	at WorkflowAnalysisValidatorText.run(WorkflowAnalysisValidatorText:30)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:339)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:330)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:309)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:301)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:235)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestCaseMainPhase(TestSuiteExecutor.java:191)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:141)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:90)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:157)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1600341862666.run(TempTestSuite1600341862666.groovy:39)]]></system-err>
+      </testcase>
+      <system-out><![CDATA[2020-09-17 13:24:29 - [TEST_SUITE][FAILED] - short link tests: Test Cases/InProgress/WorkflowAnalysisValidatorText FAILED.
+Reason:
+com.kms.katalon.core.exception.StepFailedException: .
+Expected: equals to 1.
+Actual: 1
+	at com.kms.katalon.core.util.KeywordUtil.markFailedAndStop(KeywordUtil.java:28)
+	at com.kms.katalon.core.util.KeywordUtil$markFailedAndStop$0.call(Unknown Source)
+	at kms.turing.katalon.plugins.assertj.GenericAssert.handleError(GenericAssert.groovy:71)
+	at kms.turing.katalon.plugins.assertj.GenericAssert.handleError(GenericAssert.groovy:85)
+	at kms.turing.katalon.plugins.assertj.NumberAssert.equals(NumberAssert.groovy:195)
+	at kms.turing.katalon.plugins.assertj.NumberAssert.equals(NumberAssert.groovy)
+	at kms.turing.katalon.plugins.assertj.GenericAssert.invokeMethod(GenericAssert.groovy)
+	at com.kms.katalon.core.main.CustomKeywordDelegatingMetaClass.invokeStaticMethod(CustomKeywordDelegatingMetaClass.java:50)
+	at WorkflowAnalysisValidatorText.run(WorkflowAnalysisValidatorText:30)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:339)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:330)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:309)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:301)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:235)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestCaseMainPhase(TestSuiteExecutor.java:191)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:141)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:90)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:157)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1600341862666.run(TempTestSuite1600341862666.groovy:39)]]></system-out>
+      <system-err><![CDATA[2020-09-17 13:24:29 - [TEST_SUITE][FAILED] - short link tests: Test Cases/InProgress/WorkflowAnalysisValidatorText FAILED.
+Reason:
+com.kms.katalon.core.exception.StepFailedException: .
+Expected: equals to 1.
+Actual: 1
+	at com.kms.katalon.core.util.KeywordUtil.markFailedAndStop(KeywordUtil.java:28)
+	at com.kms.katalon.core.util.KeywordUtil$markFailedAndStop$0.call(Unknown Source)
+	at kms.turing.katalon.plugins.assertj.GenericAssert.handleError(GenericAssert.groovy:71)
+	at kms.turing.katalon.plugins.assertj.GenericAssert.handleError(GenericAssert.groovy:85)
+	at kms.turing.katalon.plugins.assertj.NumberAssert.equals(NumberAssert.groovy:195)
+	at kms.turing.katalon.plugins.assertj.NumberAssert.equals(NumberAssert.groovy)
+	at kms.turing.katalon.plugins.assertj.GenericAssert.invokeMethod(GenericAssert.groovy)
+	at com.kms.katalon.core.main.CustomKeywordDelegatingMetaClass.invokeStaticMethod(CustomKeywordDelegatingMetaClass.java:50)
+	at WorkflowAnalysisValidatorText.run(WorkflowAnalysisValidatorText:30)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:339)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:330)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:309)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:301)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:235)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestCaseMainPhase(TestSuiteExecutor.java:191)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:141)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:90)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:157)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1600341862666.run(TempTestSuite1600341862666.groovy:39)]]></system-err>
+   </testsuite>
+</testsuites>

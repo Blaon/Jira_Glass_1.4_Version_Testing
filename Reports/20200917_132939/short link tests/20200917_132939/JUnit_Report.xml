@@ -1,0 +1,89 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuites name="short link tests" time="22.72" tests="1" failures="0" errors="0">
+   <testsuite name="short link tests" tests="1" failures="0" errors="0" time="22.72" timestamp="2020-09-17 13:29:46" hostname="x - DESKTOP-S0L1J4E" id="Test Suites/short link tests">
+      <properties>
+         <property name="deviceName" value=""/>
+         <property name="devicePlatform" value=""/>
+         <property name="logFolder" value="C:\\Users\\x\\git\\Jira_Glass_1.4_Version_Testing\\Reports\\20200917_132939\\short link tests\\20200917_132939"/>
+         <property name="logFiles" value="C:\\Users\\x\\git\\Jira_Glass_1.4_Version_Testing\\Reports\\20200917_132939\\short link tests\\20200917_132939\\execution0.log"/>
+         <property name="attachments" value=""/>
+         <property name="hostName" value="x - DESKTOP-S0L1J4E"/>
+         <property name="os" value="Windows 10 64bit"/>
+         <property name="katalonVersion" value="7.6.6.205"/>
+         <property name="browser" value="Chrome 85.0.4183.102"/>
+         <property name="hostAddress" value="192.168.56.1"/>
+         <property name="sessionId" value="5f594b8682f222d4500eb4fe0e616574"/>
+         <property name="seleniumVersion" value="3.141.59"/>
+         <property name="proxyInformation" value="ProxyInformation { proxyOption=NO_PROXY, proxyServerType=HTTP, username=, password=********, proxyServerAddress=, proxyServerPort=0, executionList=&quot;&quot;, isApplyToDesiredCapabilities=true }"/>
+         <property name="platform" value="Windows 10"/>
+      </properties>
+      <testcase name="Test Cases/InProgress/WorkflowAnalysisConditionsText" time="21.647" classname="Test Cases/InProgress/WorkflowAnalysisConditionsText" status="PASSED">
+         <system-out><![CDATA[2020-09-17 13:29:46 - [TEST_CASE][PASSED] - Test Cases/InProgress/WorkflowAnalysisConditionsText: Test Cases/InProgress/WorkflowAnalysisConditionsText
+
+2020-09-17 13:29:47 - [TEST_STEP][PASSED] - topTestKeywords.Login.openBrowser(): topTestKeywords.Login.openBrowser is PASSED
+
+2020-09-17 13:29:47 - [MESSAGE][INFO] - Starting 'Chrome' driver
+
+2020-09-17 13:29:47 - [MESSAGE][INFO] - Action delay is set to 0 milliseconds
+
+2020-09-17 13:29:52 - [MESSAGE][PASSED] - Browser is opened with url: ''
+
+2020-09-17 13:29:54 - [MESSAGE][PASSED] - Current window maximized
+
+2020-09-17 13:29:56 - [MESSAGE][PASSED] - Navigate to 'https://jira2.codecool.codecanvas.hu' successfully
+
+2020-09-17 13:29:56 - [MESSAGE][PASSED] - topTestKeywords.Login.openBrowser is PASSED
+
+2020-09-17 13:29:56 - [TEST_STEP][PASSED] - topTestKeywords.Login.loginAsUser(SystemAdminUsername, SystemAdminPassword): topTestKeywords.Login.loginAsUser is PASSED
+
+2020-09-17 13:29:57 - [MESSAGE][PASSED] - Text 'codecooladmin' is set on object 'Object Repository/Page_System Dashboard - Jira/Username Field'
+
+2020-09-17 13:29:57 - [MESSAGE][PASSED] - Text '2019Aprilis1' is set on object 'Object Repository/Page_System Dashboard - Jira/Password Field'
+
+2020-09-17 13:29:58 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_System Dashboard - Jira/Login Button' is clicked on
+
+2020-09-17 13:30:00 - [MESSAGE][PASSED] - Object 'Object Repository/Page_System Dashboard - Jira/User Avatar' is visible
+
+2020-09-17 13:30:00 - [MESSAGE][PASSED] - topTestKeywords.Login.loginAsUser is PASSED
+
+2020-09-17 13:30:00 - [TEST_STEP][PASSED] - topTestKeywords.Login.goToTheWorkflow(timeout): topTestKeywords.Login.goToTheWorkflow is PASSED
+
+2020-09-17 13:30:03 - [MESSAGE][PASSED] - Navigate to 'https://jira2.codecool.codecanvas.hu/projects/TWT?selectedItem=com.codecanvas.glass:glass' successfully
+
+2020-09-17 13:30:04 - [MESSAGE][PASSED] - Object 'Object Repository/Page_ToP Week6 Test - Jira/Issue Dropdown' is visible
+
+2020-09-17 13:30:04 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_ToP Week6 Test - Jira/Issue Dropdown' is clicked on
+
+2020-09-17 13:30:05 - [MESSAGE][PASSED] - Object 'Object Repository/Page_ToP Week6 Test - Jira/Issue Type' is visible
+
+2020-09-17 13:30:05 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_ToP Week6 Test - Jira/Issue Type' is clicked on
+
+2020-09-17 13:30:06 - [MESSAGE][PASSED] - Object 'Object Repository/Project Workflow/WorkflowTransitionsTitle' is visible
+
+2020-09-17 13:30:06 - [MESSAGE][PASSED] - topTestKeywords.Login.goToTheWorkflow is PASSED
+
+2020-09-17 13:30:06 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Project Workflow/EatingRow")): Object: 'Object Repository/Project Workflow/EatingRow' is clicked on
+
+2020-09-17 13:30:07 - [MESSAGE][PASSED] - Object: 'Object Repository/Project Workflow/EatingRow' is clicked on
+
+2020-09-17 13:30:07 - [TEST_STEP][PASSED] - waitForElementVisible(findTestObject("Object Repository/Project Workflow/ConditionsTable"), timeout): Object 'Object Repository/Project Workflow/ConditionsTable' is visible
+
+2020-09-17 13:30:07 - [MESSAGE][PASSED] - Object 'Object Repository/Project Workflow/ConditionsTable' is visible
+
+2020-09-17 13:30:07 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Project Workflow/ConditionsTable")): Object: 'Object Repository/Project Workflow/ConditionsTable' is clicked on
+
+2020-09-17 13:30:08 - [MESSAGE][PASSED] - Object: 'Object Repository/Project Workflow/ConditionsTable' is clicked on
+
+2020-09-17 13:30:08 - [TEST_STEP][PASSED] - kms.turing.katalon.plugins.assertj.NumberAssert.equals(topTestKeywords.Login.getWebElementsAsListSize("//div[@id='glass-transitions-conditions-panel-2']/div/div/div/ol/li"), "1", ""): The two values are equal
+
+2020-09-17 13:30:08 - [MESSAGE][PASSED] - topTestKeywords.Login.getWebElementsAsListSize is PASSED
+
+2020-09-17 13:30:08 - [MESSAGE][INFO] - 
+
+2020-09-17 13:30:08 - [MESSAGE][PASSED] - The two values are equal]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <system-out><![CDATA[2020-09-17 13:29:46 - [TEST_SUITE][PASSED] - short link tests: Test Cases/InProgress/WorkflowAnalysisConditionsText]]></system-out>
+      <system-err><![CDATA[]]></system-err>
+   </testsuite>
+</testsuites>
