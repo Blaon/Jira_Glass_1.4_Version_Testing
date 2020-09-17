@@ -1,0 +1,409 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuites name="short link tests" time="53.287" tests="4" failures="0" errors="4">
+   <testsuite name="short link tests" tests="4" failures="0" errors="4" time="53.287" timestamp="2020-09-17 11:00:47" hostname="x - DESKTOP-S0L1J4E" id="Test Suites/short link tests">
+      <properties>
+         <property name="deviceName" value=""/>
+         <property name="devicePlatform" value=""/>
+         <property name="logFolder" value="C:\\Users\\x\\git\\Jira_Glass_1.4_Version_Testing\\Reports\\20200917_110040\\short link tests\\20200917_110040"/>
+         <property name="logFiles" value="C:\\Users\\x\\git\\Jira_Glass_1.4_Version_Testing\\Reports\\20200917_110040\\short link tests\\20200917_110040\\execution0.log"/>
+         <property name="attachments" value=""/>
+         <property name="hostName" value="x - DESKTOP-S0L1J4E"/>
+         <property name="os" value="Windows 10 64bit"/>
+         <property name="katalonVersion" value="7.6.6.205"/>
+         <property name="browser" value="Chrome 85.0.4183.102"/>
+         <property name="hostAddress" value="192.168.56.1"/>
+         <property name="sessionId" value="bf96957424298a964347fb00b9034d80"/>
+         <property name="seleniumVersion" value="3.141.59"/>
+         <property name="proxyInformation" value="ProxyInformation { proxyOption=NO_PROXY, proxyServerType=HTTP, username=, password=********, proxyServerAddress=, proxyServerPort=0, executionList=&quot;&quot;, isApplyToDesiredCapabilities=true }"/>
+         <property name="platform" value="Windows 10"/>
+      </properties>
+      <testcase name="Test Cases/InProgress/WorkflowAnalysisValidatorCounter" time="14.701" classname="Test Cases/InProgress/WorkflowAnalysisValidatorCounter" status="ERROR">
+         <error type="ERROR" message="Test Cases/InProgress/WorkflowAnalysisValidatorCounter FAILED.
+Reason:
+groovy.lang.MissingPropertyException: No such property: timeout for class: Script1600327312651
+	at WorkflowAnalysisValidatorCounter.run(WorkflowAnalysisValidatorCounter:27)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:339)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:330)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:309)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:301)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:235)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestCaseMainPhase(TestSuiteExecutor.java:191)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:141)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:90)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:157)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1600333240234.run(TempTestSuite1600333240234.groovy:39)
+"/>
+         <system-out><![CDATA[2020-09-17 11:00:47 - [TEST_CASE][ERROR] - Test Cases/InProgress/WorkflowAnalysisValidatorCounter: Test Cases/InProgress/WorkflowAnalysisValidatorCounter FAILED.
+Reason:
+groovy.lang.MissingPropertyException: No such property: timeout for class: Script1600327312651
+	at WorkflowAnalysisValidatorCounter.run(WorkflowAnalysisValidatorCounter:27)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:339)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:330)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:309)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:301)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:235)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestCaseMainPhase(TestSuiteExecutor.java:191)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:141)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:90)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:157)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1600333240234.run(TempTestSuite1600333240234.groovy:39)
+
+
+2020-09-17 11:00:48 - [TEST_STEP][PASSED] - validatorCounter = new com.kms.katalon.core.testobject.TestObject(validatorCounter): null
+
+2020-09-17 11:00:48 - [TEST_STEP][PASSED] - validatorCounter.addProperty("xpath", EQUALS, xpath): null
+
+2020-09-17 11:00:48 - [TEST_STEP][PASSED] - topTestKeywords.Login.openBrowser(): topTestKeywords.Login.openBrowser is PASSED
+
+2020-09-17 11:00:48 - [MESSAGE][INFO] - Starting 'Chrome' driver
+
+2020-09-17 11:00:48 - [MESSAGE][INFO] - Action delay is set to 0 milliseconds
+
+2020-09-17 11:00:53 - [MESSAGE][PASSED] - Browser is opened with url: ''
+
+2020-09-17 11:00:55 - [MESSAGE][PASSED] - Current window maximized
+
+2020-09-17 11:00:57 - [MESSAGE][PASSED] - Navigate to 'https://jira2.codecool.codecanvas.hu' successfully
+
+2020-09-17 11:00:57 - [MESSAGE][PASSED] - topTestKeywords.Login.openBrowser is PASSED
+
+2020-09-17 11:00:57 - [TEST_STEP][PASSED] - topTestKeywords.Login.loginAsUser(SystemAdminUsername, SystemAdminPassword): topTestKeywords.Login.loginAsUser is PASSED
+
+2020-09-17 11:00:58 - [MESSAGE][PASSED] - Text 'codecooladmin' is set on object 'Object Repository/Page_System Dashboard - Jira/Username Field'
+
+2020-09-17 11:00:58 - [MESSAGE][PASSED] - Text '2019Aprilis1' is set on object 'Object Repository/Page_System Dashboard - Jira/Password Field'
+
+2020-09-17 11:00:59 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_System Dashboard - Jira/Login Button' is clicked on
+
+2020-09-17 11:01:02 - [MESSAGE][PASSED] - Object 'Object Repository/Page_System Dashboard - Jira/User Avatar' is visible
+
+2020-09-17 11:01:02 - [MESSAGE][PASSED] - topTestKeywords.Login.loginAsUser is PASSED
+
+2020-09-17 11:01:02 - [TEST_STEP][PASSED] - topTestKeywords.Login.goToTheWorkflow(timeout): null]]></system-out>
+         <system-err><![CDATA[2020-09-17 11:00:47 - [TEST_CASE][ERROR] - Test Cases/InProgress/WorkflowAnalysisValidatorCounter: Test Cases/InProgress/WorkflowAnalysisValidatorCounter FAILED.
+Reason:
+groovy.lang.MissingPropertyException: No such property: timeout for class: Script1600327312651
+	at WorkflowAnalysisValidatorCounter.run(WorkflowAnalysisValidatorCounter:27)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:339)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:330)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:309)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:301)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:235)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestCaseMainPhase(TestSuiteExecutor.java:191)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:141)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:90)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:157)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1600333240234.run(TempTestSuite1600333240234.groovy:39)]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/InProgress/WorkflowAnalysisValidatorCounter" time="12.375" classname="Test Cases/InProgress/WorkflowAnalysisValidatorCounter" status="ERROR">
+         <error type="ERROR" message="Test Cases/InProgress/WorkflowAnalysisValidatorCounter FAILED.
+Reason:
+groovy.lang.MissingPropertyException: No such property: timeout for class: Script1600327312651
+	at WorkflowAnalysisValidatorCounter.run(WorkflowAnalysisValidatorCounter:27)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:339)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:330)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:309)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:301)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:235)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestCaseMainPhase(TestSuiteExecutor.java:191)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:141)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:90)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:157)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1600333240234.run(TempTestSuite1600333240234.groovy:39)
+"/>
+         <system-out><![CDATA[2020-09-17 11:01:02 - [TEST_CASE][ERROR] - Test Cases/InProgress/WorkflowAnalysisValidatorCounter: Test Cases/InProgress/WorkflowAnalysisValidatorCounter FAILED.
+Reason:
+groovy.lang.MissingPropertyException: No such property: timeout for class: Script1600327312651
+	at WorkflowAnalysisValidatorCounter.run(WorkflowAnalysisValidatorCounter:27)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:339)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:330)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:309)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:301)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:235)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestCaseMainPhase(TestSuiteExecutor.java:191)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:141)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:90)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:157)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1600333240234.run(TempTestSuite1600333240234.groovy:39)
+
+
+2020-09-17 11:01:02 - [TEST_STEP][PASSED] - validatorCounter = new com.kms.katalon.core.testobject.TestObject(validatorCounter): null
+
+2020-09-17 11:01:02 - [TEST_STEP][PASSED] - validatorCounter.addProperty("xpath", EQUALS, xpath): null
+
+2020-09-17 11:01:02 - [TEST_STEP][PASSED] - topTestKeywords.Login.openBrowser(): topTestKeywords.Login.openBrowser is PASSED
+
+2020-09-17 11:01:02 - [MESSAGE][WARNING] - A browser is already opened. Closing browser and opening a new one
+
+2020-09-17 11:01:03 - [MESSAGE][INFO] - Starting 'Chrome' driver
+
+2020-09-17 11:01:03 - [MESSAGE][INFO] - Action delay is set to 0 milliseconds
+
+2020-09-17 11:01:06 - [MESSAGE][PASSED] - Browser is opened with url: ''
+
+2020-09-17 11:01:09 - [MESSAGE][PASSED] - Current window maximized
+
+2020-09-17 11:01:11 - [MESSAGE][PASSED] - Navigate to 'https://jira2.codecool.codecanvas.hu' successfully
+
+2020-09-17 11:01:11 - [MESSAGE][PASSED] - topTestKeywords.Login.openBrowser is PASSED
+
+2020-09-17 11:01:11 - [TEST_STEP][PASSED] - topTestKeywords.Login.loginAsUser(SystemAdminUsername, SystemAdminPassword): topTestKeywords.Login.loginAsUser is PASSED
+
+2020-09-17 11:01:11 - [MESSAGE][PASSED] - Text 'codecooladmin' is set on object 'Object Repository/Page_System Dashboard - Jira/Username Field'
+
+2020-09-17 11:01:12 - [MESSAGE][PASSED] - Text '2019Aprilis1' is set on object 'Object Repository/Page_System Dashboard - Jira/Password Field'
+
+2020-09-17 11:01:12 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_System Dashboard - Jira/Login Button' is clicked on
+
+2020-09-17 11:01:14 - [MESSAGE][PASSED] - Object 'Object Repository/Page_System Dashboard - Jira/User Avatar' is visible
+
+2020-09-17 11:01:14 - [MESSAGE][PASSED] - topTestKeywords.Login.loginAsUser is PASSED
+
+2020-09-17 11:01:14 - [TEST_STEP][PASSED] - topTestKeywords.Login.goToTheWorkflow(timeout): null]]></system-out>
+         <system-err><![CDATA[2020-09-17 11:01:02 - [TEST_CASE][ERROR] - Test Cases/InProgress/WorkflowAnalysisValidatorCounter: Test Cases/InProgress/WorkflowAnalysisValidatorCounter FAILED.
+Reason:
+groovy.lang.MissingPropertyException: No such property: timeout for class: Script1600327312651
+	at WorkflowAnalysisValidatorCounter.run(WorkflowAnalysisValidatorCounter:27)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:339)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:330)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:309)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:301)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:235)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestCaseMainPhase(TestSuiteExecutor.java:191)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:141)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:90)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:157)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1600333240234.run(TempTestSuite1600333240234.groovy:39)]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/InProgress/WorkflowAnalysisConditionsCounter" time="12.447" classname="Test Cases/InProgress/WorkflowAnalysisConditionsCounter" status="ERROR">
+         <error type="ERROR" message="Test Cases/InProgress/WorkflowAnalysisConditionsCounter FAILED.
+Reason:
+groovy.lang.MissingPropertyException: No such property: timeout for class: Script1600327350405
+	at WorkflowAnalysisConditionsCounter.run(WorkflowAnalysisConditionsCounter:27)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:339)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:330)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:309)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:301)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:235)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestCaseMainPhase(TestSuiteExecutor.java:191)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:141)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:90)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:157)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1600333240234.run(TempTestSuite1600333240234.groovy:39)
+"/>
+         <system-out><![CDATA[2020-09-17 11:01:14 - [TEST_CASE][ERROR] - Test Cases/InProgress/WorkflowAnalysisConditionsCounter: Test Cases/InProgress/WorkflowAnalysisConditionsCounter FAILED.
+Reason:
+groovy.lang.MissingPropertyException: No such property: timeout for class: Script1600327350405
+	at WorkflowAnalysisConditionsCounter.run(WorkflowAnalysisConditionsCounter:27)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:339)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:330)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:309)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:301)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:235)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestCaseMainPhase(TestSuiteExecutor.java:191)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:141)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:90)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:157)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1600333240234.run(TempTestSuite1600333240234.groovy:39)
+
+
+2020-09-17 11:01:15 - [TEST_STEP][PASSED] - conditionCounter = new com.kms.katalon.core.testobject.TestObject(conditionCounter): null
+
+2020-09-17 11:01:15 - [TEST_STEP][PASSED] - conditionCounter.addProperty("xpath", EQUALS, xpath): null
+
+2020-09-17 11:01:15 - [TEST_STEP][PASSED] - topTestKeywords.Login.openBrowser(): topTestKeywords.Login.openBrowser is PASSED
+
+2020-09-17 11:01:15 - [MESSAGE][WARNING] - A browser is already opened. Closing browser and opening a new one
+
+2020-09-17 11:01:15 - [MESSAGE][INFO] - Starting 'Chrome' driver
+
+2020-09-17 11:01:15 - [MESSAGE][INFO] - Action delay is set to 0 milliseconds
+
+2020-09-17 11:01:19 - [MESSAGE][PASSED] - Browser is opened with url: ''
+
+2020-09-17 11:01:21 - [MESSAGE][PASSED] - Current window maximized
+
+2020-09-17 11:01:23 - [MESSAGE][PASSED] - Navigate to 'https://jira2.codecool.codecanvas.hu' successfully
+
+2020-09-17 11:01:23 - [MESSAGE][PASSED] - topTestKeywords.Login.openBrowser is PASSED
+
+2020-09-17 11:01:23 - [TEST_STEP][PASSED] - topTestKeywords.Login.loginAsUser(SystemAdminUsername, SystemAdminPassword): topTestKeywords.Login.loginAsUser is PASSED
+
+2020-09-17 11:01:24 - [MESSAGE][PASSED] - Text 'codecooladmin' is set on object 'Object Repository/Page_System Dashboard - Jira/Username Field'
+
+2020-09-17 11:01:25 - [MESSAGE][PASSED] - Text '2019Aprilis1' is set on object 'Object Repository/Page_System Dashboard - Jira/Password Field'
+
+2020-09-17 11:01:25 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_System Dashboard - Jira/Login Button' is clicked on
+
+2020-09-17 11:01:27 - [MESSAGE][PASSED] - Object 'Object Repository/Page_System Dashboard - Jira/User Avatar' is visible
+
+2020-09-17 11:01:27 - [MESSAGE][PASSED] - topTestKeywords.Login.loginAsUser is PASSED
+
+2020-09-17 11:01:27 - [TEST_STEP][PASSED] - topTestKeywords.Login.goToTheWorkflow(timeout): null]]></system-out>
+         <system-err><![CDATA[2020-09-17 11:01:14 - [TEST_CASE][ERROR] - Test Cases/InProgress/WorkflowAnalysisConditionsCounter: Test Cases/InProgress/WorkflowAnalysisConditionsCounter FAILED.
+Reason:
+groovy.lang.MissingPropertyException: No such property: timeout for class: Script1600327350405
+	at WorkflowAnalysisConditionsCounter.run(WorkflowAnalysisConditionsCounter:27)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:339)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:330)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:309)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:301)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:235)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestCaseMainPhase(TestSuiteExecutor.java:191)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:141)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:90)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:157)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1600333240234.run(TempTestSuite1600333240234.groovy:39)]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/InProgress/WorkflowAnalysisConditionsCounter" time="12.514" classname="Test Cases/InProgress/WorkflowAnalysisConditionsCounter" status="ERROR">
+         <error type="ERROR" message="Test Cases/InProgress/WorkflowAnalysisConditionsCounter FAILED.
+Reason:
+groovy.lang.MissingPropertyException: No such property: timeout for class: Script1600327350405
+	at WorkflowAnalysisConditionsCounter.run(WorkflowAnalysisConditionsCounter:27)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:339)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:330)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:309)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:301)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:235)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestCaseMainPhase(TestSuiteExecutor.java:191)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:141)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:90)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:157)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1600333240234.run(TempTestSuite1600333240234.groovy:39)
+"/>
+         <system-out><![CDATA[2020-09-17 11:01:27 - [TEST_CASE][ERROR] - Test Cases/InProgress/WorkflowAnalysisConditionsCounter: Test Cases/InProgress/WorkflowAnalysisConditionsCounter FAILED.
+Reason:
+groovy.lang.MissingPropertyException: No such property: timeout for class: Script1600327350405
+	at WorkflowAnalysisConditionsCounter.run(WorkflowAnalysisConditionsCounter:27)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:339)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:330)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:309)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:301)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:235)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestCaseMainPhase(TestSuiteExecutor.java:191)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:141)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:90)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:157)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1600333240234.run(TempTestSuite1600333240234.groovy:39)
+
+
+2020-09-17 11:01:27 - [TEST_STEP][PASSED] - conditionCounter = new com.kms.katalon.core.testobject.TestObject(conditionCounter): null
+
+2020-09-17 11:01:27 - [TEST_STEP][PASSED] - conditionCounter.addProperty("xpath", EQUALS, xpath): null
+
+2020-09-17 11:01:27 - [TEST_STEP][PASSED] - topTestKeywords.Login.openBrowser(): topTestKeywords.Login.openBrowser is PASSED
+
+2020-09-17 11:01:27 - [MESSAGE][WARNING] - A browser is already opened. Closing browser and opening a new one
+
+2020-09-17 11:01:28 - [MESSAGE][INFO] - Starting 'Chrome' driver
+
+2020-09-17 11:01:28 - [MESSAGE][INFO] - Action delay is set to 0 milliseconds
+
+2020-09-17 11:01:31 - [MESSAGE][PASSED] - Browser is opened with url: ''
+
+2020-09-17 11:01:33 - [MESSAGE][PASSED] - Current window maximized
+
+2020-09-17 11:01:36 - [MESSAGE][PASSED] - Navigate to 'https://jira2.codecool.codecanvas.hu' successfully
+
+2020-09-17 11:01:36 - [MESSAGE][PASSED] - topTestKeywords.Login.openBrowser is PASSED
+
+2020-09-17 11:01:36 - [TEST_STEP][PASSED] - topTestKeywords.Login.loginAsUser(SystemAdminUsername, SystemAdminPassword): topTestKeywords.Login.loginAsUser is PASSED
+
+2020-09-17 11:01:36 - [MESSAGE][PASSED] - Text 'codecooladmin' is set on object 'Object Repository/Page_System Dashboard - Jira/Username Field'
+
+2020-09-17 11:01:37 - [MESSAGE][PASSED] - Text '2019Aprilis1' is set on object 'Object Repository/Page_System Dashboard - Jira/Password Field'
+
+2020-09-17 11:01:37 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_System Dashboard - Jira/Login Button' is clicked on
+
+2020-09-17 11:01:39 - [MESSAGE][PASSED] - Object 'Object Repository/Page_System Dashboard - Jira/User Avatar' is visible
+
+2020-09-17 11:01:39 - [MESSAGE][PASSED] - topTestKeywords.Login.loginAsUser is PASSED
+
+2020-09-17 11:01:39 - [TEST_STEP][PASSED] - topTestKeywords.Login.goToTheWorkflow(timeout): null]]></system-out>
+         <system-err><![CDATA[2020-09-17 11:01:27 - [TEST_CASE][ERROR] - Test Cases/InProgress/WorkflowAnalysisConditionsCounter: Test Cases/InProgress/WorkflowAnalysisConditionsCounter FAILED.
+Reason:
+groovy.lang.MissingPropertyException: No such property: timeout for class: Script1600327350405
+	at WorkflowAnalysisConditionsCounter.run(WorkflowAnalysisConditionsCounter:27)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:339)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:330)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:309)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:301)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:235)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestCaseMainPhase(TestSuiteExecutor.java:191)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:141)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:90)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:157)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1600333240234.run(TempTestSuite1600333240234.groovy:39)]]></system-err>
+      </testcase>
+      <system-out><![CDATA[2020-09-17 11:00:47 - [TEST_SUITE][ERROR] - short link tests: Test Cases/InProgress/WorkflowAnalysisValidatorCounter FAILED.
+Reason:
+groovy.lang.MissingPropertyException: No such property: timeout for class: Script1600327312651
+	at WorkflowAnalysisValidatorCounter.run(WorkflowAnalysisValidatorCounter:27)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:339)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:330)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:309)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:301)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:235)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestCaseMainPhase(TestSuiteExecutor.java:191)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:141)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:90)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:157)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1600333240234.run(TempTestSuite1600333240234.groovy:39)]]></system-out>
+      <system-err><![CDATA[2020-09-17 11:00:47 - [TEST_SUITE][ERROR] - short link tests: Test Cases/InProgress/WorkflowAnalysisValidatorCounter FAILED.
+Reason:
+groovy.lang.MissingPropertyException: No such property: timeout for class: Script1600327312651
+	at WorkflowAnalysisValidatorCounter.run(WorkflowAnalysisValidatorCounter:27)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:339)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:330)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:309)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:301)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:235)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestCaseMainPhase(TestSuiteExecutor.java:191)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:141)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:90)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:157)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1600333240234.run(TempTestSuite1600333240234.groovy:39)]]></system-err>
+   </testsuite>
+</testsuites>

@@ -410,7 +410,7 @@
    <testCaseLink>
       <guid>fd9eca9b-864b-4a2f-b0d1-76bcf7ca70d8</guid>
       <isReuseDriver>false</isReuseDriver>
-      <isRun>true</isRun>
+      <isRun>false</isRun>
       <testCaseId>Test Cases/Workflow/WorkflowAnalysisPostFunctionsCounter</testCaseId>
       <testDataLink>
          <combinationType>ONE</combinationType>
@@ -438,6 +438,72 @@
          <type>DEFAULT</type>
          <value></value>
          <variableId>c226e9f7-509f-4b21-96c1-682e4793f48e</variableId>
+      </variableLink>
+   </testCaseLink>
+   <testCaseLink>
+      <guid>99d89688-fbd2-48da-bed7-b596139c94c7</guid>
+      <isReuseDriver>false</isReuseDriver>
+      <isRun>true</isRun>
+      <testCaseId>Test Cases/InProgress/WorkflowAnalysisValidatorCounter</testCaseId>
+      <testDataLink>
+         <combinationType>ONE</combinationType>
+         <id>aa2a33c5-91e2-4dfe-84d8-60df873d595d</id>
+         <iterationEntity>
+            <iterationType>ALL</iterationType>
+            <value></value>
+         </iterationEntity>
+         <testDataId>Data Files/ValidatorCounter</testDataId>
+      </testDataLink>
+      <variableLink>
+         <testDataLinkId></testDataLinkId>
+         <type>DEFAULT</type>
+         <value></value>
+         <variableId>0f94d2d4-e566-4277-92b6-835ed776f032</variableId>
+      </variableLink>
+      <variableLink>
+         <testDataLinkId>aa2a33c5-91e2-4dfe-84d8-60df873d595d</testDataLinkId>
+         <type>DATA_COLUMN</type>
+         <value>xpath</value>
+         <variableId>a3bdf46d-4a01-4d7a-9f0c-14d07d2a33d5</variableId>
+      </variableLink>
+      <variableLink>
+         <testDataLinkId>aa2a33c5-91e2-4dfe-84d8-60df873d595d</testDataLinkId>
+         <type>DATA_COLUMN</type>
+         <value>expectedNumber</value>
+         <variableId>9a019846-4db1-43fd-8192-0ff467128d3f</variableId>
+      </variableLink>
+   </testCaseLink>
+   <testCaseLink>
+      <guid>4300490a-c8e6-4083-91dd-2564b0f6e7f7</guid>
+      <isReuseDriver>false</isReuseDriver>
+      <isRun>true</isRun>
+      <testCaseId>Test Cases/InProgress/WorkflowAnalysisConditionsCounter</testCaseId>
+      <testDataLink>
+         <combinationType>ONE</combinationType>
+         <id>eb85ca50-064f-45b7-977b-73a400ff389d</id>
+         <iterationEntity>
+            <iterationType>ALL</iterationType>
+            <value></value>
+         </iterationEntity>
+         <testDataId>Data Files/ConditionsCounter</testDataId>
+      </testDataLink>
+      <variableLink>
+         <testDataLinkId>eb85ca50-064f-45b7-977b-73a400ff389d</testDataLinkId>
+         <type>DATA_COLUMN</type>
+         <value>xpath</value>
+         <variableId>0cd59d34-7c5d-4c30-950b-fa64c36e1f2b</variableId>
+      </variableLink>
+      <variableLink>
+         <testDataLinkId>eb85ca50-064f-45b7-977b-73a400ff389d</testDataLinkId>
+         <type>DATA_COLUMN</type>
+         <value>expectedNumber</value>
+         <variableId>064c8381-fd90-4eb8-b6f2-d507c9860420</variableId>
+      </variableLink>
+      <variableLink>
+         <testDataLinkId></testDataLinkId>
+         <type>DEFAULT</type>
+         <value></value>
+         <variableId>50334aff-c44c-4a74-bf57-5bd9f0a6c0ed</variableId>
       </variableLink>
    </testCaseLink>
 </TestSuiteEntity>

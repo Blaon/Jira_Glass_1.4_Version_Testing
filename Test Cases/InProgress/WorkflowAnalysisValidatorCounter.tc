@@ -5,4 +5,25 @@
    <tag></tag>
    <comment></comment>
    <testCaseGuid>2cf1e440-f1a6-4b2f-85b3-0717db2a2c23</testCaseGuid>
+   <variable>
+      <defaultValue>GlobalVariable.Timeout</defaultValue>
+      <description></description>
+      <id>0f94d2d4-e566-4277-92b6-835ed776f032</id>
+      <masked>false</masked>
+      <name>timeout</name>
+   </variable>
+   <variable>
+      <defaultValue>''</defaultValue>
+      <description></description>
+      <id>a3bdf46d-4a01-4d7a-9f0c-14d07d2a33d5</id>
+      <masked>false</masked>
+      <name>xpath</name>
+   </variable>
+   <variable>
+      <defaultValue>''</defaultValue>
+      <description></description>
+      <id>9a019846-4db1-43fd-8192-0ff467128d3f</id>
+      <masked>false</masked>
+      <name>expectedNumber</name>
+   </variable>
 </TestCaseEntity>

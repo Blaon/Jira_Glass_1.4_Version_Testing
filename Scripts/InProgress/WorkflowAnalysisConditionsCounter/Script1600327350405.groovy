@@ -14,4 +14,18 @@ import com.kms.katalon.core.webservice.keyword.WSBuiltInKeywords as WS
 import com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords as WebUI
 import com.kms.katalon.core.windows.keyword.WindowsBuiltinKeywords as Windows
 import internal.GlobalVariable as GlobalVariable
+import com.kms.katalon.core.testobject.ConditionType as ConditionType
+
+TestObject conditionCounter = new TestObject('conditionCounter')
+
+conditionCounter.addProperty('xpath', ConditionType.EQUALS, xpath)
+
+CustomKeywords.'topTestKeywords.Login.openBrowser'()
+
+CustomKeywords.'topTestKeywords.Login.loginAsUser'(GlobalVariable.SystemAdminUsername, GlobalVariable.SystemAdminPassword)
+
+CustomKeywords.'topTestKeywords.Login.goToTheWorkflow'(timeout)
+
+WebUI.verifyElementText(conditionCounter, expectedNumber)
+
 
