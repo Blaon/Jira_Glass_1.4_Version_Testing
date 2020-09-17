@@ -15,7 +15,7 @@
       <guid>e70bd992-8aed-43e6-8941-2d269c858520</guid>
       <isReuseDriver>false</isReuseDriver>
       <isRun>false</isRun>
-      <testCaseId>Test Cases/SystemAdminPermissions</testCaseId>
+      <testCaseId>Test Cases/Permissions/SystemAdminPermissions</testCaseId>
       <testDataLink>
          <combinationType>ONE</combinationType>
          <id>ab576e75-53e8-4e93-a4a3-1e3f2014df74</id>
@@ -54,7 +54,7 @@
       <guid>25e67b67-ef05-4420-a02e-8612bfb32e45</guid>
       <isReuseDriver>false</isReuseDriver>
       <isRun>false</isRun>
-      <testCaseId>Test Cases/SystemAdminIssueWorkflowPermissions</testCaseId>
+      <testCaseId>Test Cases/Permissions/SystemAdminIssueWorkflowPermissions</testCaseId>
       <testDataLink>
          <combinationType>ONE</combinationType>
          <id>562ec763-a07e-428f-a55d-0f560c51dcb6</id>
@@ -87,7 +87,7 @@
       <guid>d5e98b60-38f1-4d23-b3ad-3334ce32c53f</guid>
       <isReuseDriver>false</isReuseDriver>
       <isRun>false</isRun>
-      <testCaseId>Test Cases/SystemAdminSchemeLinks</testCaseId>
+      <testCaseId>Test Cases/Permissions/SystemAdminSchemeLinks</testCaseId>
       <testDataLink>
          <combinationType>ONE</combinationType>
          <id>f375c5d3-4edb-47a6-b2ae-1b42378052d9</id>
@@ -114,7 +114,7 @@
       <guid>5830d1df-6af3-4abe-9587-de15d803704e</guid>
       <isReuseDriver>false</isReuseDriver>
       <isRun>false</isRun>
-      <testCaseId>Test Cases/ProjectAdminSchemeLinks</testCaseId>
+      <testCaseId>Test Cases/Permissions/ProjectAdminSchemeLinks</testCaseId>
       <testDataLink>
          <combinationType>ONE</combinationType>
          <id>ee6866bb-6e66-4498-866c-bdafff747bc2</id>
@@ -141,7 +141,7 @@
       <guid>6dcf55cc-81ff-46c0-aefb-d2eea829ad23</guid>
       <isReuseDriver>false</isReuseDriver>
       <isRun>false</isRun>
-      <testCaseId>Test Cases/ProjectAdminPermissions</testCaseId>
+      <testCaseId>Test Cases/Permissions/ProjectAdminPermissions</testCaseId>
       <testDataLink>
          <combinationType>ONE</combinationType>
          <id>08013655-0dd4-43ea-b76d-b81df6b85b76</id>
@@ -180,7 +180,7 @@
       <guid>89d9a40b-7fbd-4907-9b14-c870e3300f2b</guid>
       <isReuseDriver>false</isReuseDriver>
       <isRun>false</isRun>
-      <testCaseId>Test Cases/ProjectAdminIssueWorkflowPermissions</testCaseId>
+      <testCaseId>Test Cases/Permissions/ProjectAdminIssueWorkflowPermissions</testCaseId>
       <testDataLink>
          <combinationType>ONE</combinationType>
          <id>0422fd1b-319d-4902-acfa-aafe903fd253</id>
@@ -213,7 +213,7 @@
       <guid>ba02477e-cb55-4c67-a243-0e5f45fca92c</guid>
       <isReuseDriver>false</isReuseDriver>
       <isRun>false</isRun>
-      <testCaseId>Test Cases/UserIssueWorkflowPermissions</testCaseId>
+      <testCaseId>Test Cases/Permissions/UserIssueWorkflowPermissions</testCaseId>
       <testDataLink>
          <combinationType>ONE</combinationType>
          <id>d131495b-53dc-4ccd-a8a6-18ff4a72443e</id>
@@ -246,7 +246,7 @@
       <guid>27566ede-e276-4a5d-b23d-ddc2180aa804</guid>
       <isReuseDriver>false</isReuseDriver>
       <isRun>false</isRun>
-      <testCaseId>Test Cases/UserPermissions</testCaseId>
+      <testCaseId>Test Cases/Permissions/UserPermissions</testCaseId>
       <testDataLink>
          <combinationType>ONE</combinationType>
          <id>c1eade3e-87cd-4689-bdd9-3a277f21d787</id>
@@ -285,7 +285,7 @@
       <guid>cce809d5-e76e-4503-aedf-cca5a0ebad93</guid>
       <isReuseDriver>false</isReuseDriver>
       <isRun>false</isRun>
-      <testCaseId>Test Cases/UserSchemeLinks</testCaseId>
+      <testCaseId>Test Cases/Permissions/UserSchemeLinks</testCaseId>
       <testDataLink>
          <combinationType>ONE</combinationType>
          <id>1570d3a4-5a56-4985-a8b2-80ab46685544</id>
@@ -306,6 +306,138 @@
          <type>DEFAULT</type>
          <value></value>
          <variableId>751d793a-63ea-4185-bc12-187e43b58600</variableId>
+      </variableLink>
+   </testCaseLink>
+   <testCaseLink>
+      <guid>e31c2e80-3231-442b-bd89-a300ed2d6490</guid>
+      <isReuseDriver>false</isReuseDriver>
+      <isRun>false</isRun>
+      <testCaseId>Test Cases/Workflow/WorkflowAnalysisFromStatus</testCaseId>
+      <testDataLink>
+         <combinationType>ONE</combinationType>
+         <id>0d33a1d7-ccc0-474a-97fa-bcd4ce531354</id>
+         <iterationEntity>
+            <iterationType>ALL</iterationType>
+            <value></value>
+         </iterationEntity>
+         <testDataId>Data Files/FromStatus</testDataId>
+      </testDataLink>
+      <variableLink>
+         <testDataLinkId>0d33a1d7-ccc0-474a-97fa-bcd4ce531354</testDataLinkId>
+         <type>DATA_COLUMN</type>
+         <value>xpath</value>
+         <variableId>bb3f3b84-488d-48f5-b606-34e4c63cc396</variableId>
+      </variableLink>
+      <variableLink>
+         <testDataLinkId>0d33a1d7-ccc0-474a-97fa-bcd4ce531354</testDataLinkId>
+         <type>DATA_COLUMN</type>
+         <value>FromStatus</value>
+         <variableId>d1bc8fca-eac4-41fb-9c72-89a53bfa7c0d</variableId>
+      </variableLink>
+      <variableLink>
+         <testDataLinkId></testDataLinkId>
+         <type>DEFAULT</type>
+         <value></value>
+         <variableId>57f30502-7f41-4a70-9436-fc0b2d442530</variableId>
+      </variableLink>
+   </testCaseLink>
+   <testCaseLink>
+      <guid>5d191b5c-0df1-4f39-b705-46da13861751</guid>
+      <isReuseDriver>false</isReuseDriver>
+      <isRun>false</isRun>
+      <testCaseId>Test Cases/Workflow/WorkflowAnalysisType</testCaseId>
+      <testDataLink>
+         <combinationType>ONE</combinationType>
+         <id>74681277-eac8-45ce-9e1d-0ca8658af415</id>
+         <iterationEntity>
+            <iterationType>ALL</iterationType>
+            <value></value>
+         </iterationEntity>
+         <testDataId>Data Files/WorkflowType</testDataId>
+      </testDataLink>
+      <variableLink>
+         <testDataLinkId>74681277-eac8-45ce-9e1d-0ca8658af415</testDataLinkId>
+         <type>DATA_COLUMN</type>
+         <value>xpath</value>
+         <variableId>6d1947e4-c63f-42d4-813d-059bbc59579f</variableId>
+      </variableLink>
+      <variableLink>
+         <testDataLinkId>74681277-eac8-45ce-9e1d-0ca8658af415</testDataLinkId>
+         <type>DATA_COLUMN</type>
+         <value>WorkflowType</value>
+         <variableId>97a4a12b-dfdc-4a54-b6f9-46d4b968557b</variableId>
+      </variableLink>
+      <variableLink>
+         <testDataLinkId></testDataLinkId>
+         <type>DEFAULT</type>
+         <value></value>
+         <variableId>1e5fa8ed-380e-4acf-b6f3-344ac1764d54</variableId>
+      </variableLink>
+   </testCaseLink>
+   <testCaseLink>
+      <guid>2fef9695-1d91-406f-927e-23e6c82c5c69</guid>
+      <isReuseDriver>false</isReuseDriver>
+      <isRun>false</isRun>
+      <testCaseId>Test Cases/Workflow/WorkflowAnalysisScreen</testCaseId>
+      <testDataLink>
+         <combinationType>ONE</combinationType>
+         <id>4f220353-314e-4df5-9cc5-3ed16cb4a9ce</id>
+         <iterationEntity>
+            <iterationType>ALL</iterationType>
+            <value></value>
+         </iterationEntity>
+         <testDataId>Data Files/WorkflowScreen</testDataId>
+      </testDataLink>
+      <variableLink>
+         <testDataLinkId>4f220353-314e-4df5-9cc5-3ed16cb4a9ce</testDataLinkId>
+         <type>DATA_COLUMN</type>
+         <value>xpath</value>
+         <variableId>726f2628-e871-4174-86dc-7f4aadbc8651</variableId>
+      </variableLink>
+      <variableLink>
+         <testDataLinkId>4f220353-314e-4df5-9cc5-3ed16cb4a9ce</testDataLinkId>
+         <type>DATA_COLUMN</type>
+         <value>Screen</value>
+         <variableId>b9aac85d-1e15-463d-b1f4-f26eed3cfbf5</variableId>
+      </variableLink>
+      <variableLink>
+         <testDataLinkId></testDataLinkId>
+         <type>DEFAULT</type>
+         <value></value>
+         <variableId>2a020616-7d0e-471a-b1e8-e694dce58596</variableId>
+      </variableLink>
+   </testCaseLink>
+   <testCaseLink>
+      <guid>fd9eca9b-864b-4a2f-b0d1-76bcf7ca70d8</guid>
+      <isReuseDriver>false</isReuseDriver>
+      <isRun>true</isRun>
+      <testCaseId>Test Cases/Workflow/WorkflowAnalysisPostFunctionsCounter</testCaseId>
+      <testDataLink>
+         <combinationType>ONE</combinationType>
+         <id>94c51ab1-9294-472f-8d61-bb5f24ef9fa7</id>
+         <iterationEntity>
+            <iterationType>ALL</iterationType>
+            <value></value>
+         </iterationEntity>
+         <testDataId>Data Files/PostFunctionCounter</testDataId>
+      </testDataLink>
+      <variableLink>
+         <testDataLinkId>94c51ab1-9294-472f-8d61-bb5f24ef9fa7</testDataLinkId>
+         <type>DATA_COLUMN</type>
+         <value>xpath</value>
+         <variableId>9edfaf89-8972-4fba-9c7e-e7a94c7eb086</variableId>
+      </variableLink>
+      <variableLink>
+         <testDataLinkId>94c51ab1-9294-472f-8d61-bb5f24ef9fa7</testDataLinkId>
+         <type>DATA_COLUMN</type>
+         <value>expectedNumber</value>
+         <variableId>8e5949ad-9ba1-493e-ad9d-e40f5f5ae29d</variableId>
+      </variableLink>
+      <variableLink>
+         <testDataLinkId></testDataLinkId>
+         <type>DEFAULT</type>
+         <value></value>
+         <variableId>c226e9f7-509f-4b21-96c1-682e4793f48e</variableId>
       </variableLink>
    </testCaseLink>
 </TestSuiteEntity>

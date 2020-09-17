@@ -40,4 +40,14 @@ public class Login {
 		WebUI.maximizeWindow()
 		WebUI.navigateToUrl(GlobalVariable.BaseURL)
 	}
+
+	@Keyword
+	def goToTheWorkflow(int timeout){
+		WebUI.navigateToUrl(GlobalVariable.BaseURL + '/projects/TWT?selectedItem=com.codecanvas.glass:glass')
+		WebUI.waitForElementVisible(findTestObject('Object Repository/Page_ToP Week6 Test - Jira/Issue Dropdown'), timeout)
+		WebUI.click(findTestObject('Object Repository/Page_ToP Week6 Test - Jira/Issue Dropdown'))
+		WebUI.waitForElementVisible(findTestObject('Object Repository/Page_ToP Week6 Test - Jira/Issue Type'), timeout)
+		WebUI.click(findTestObject('Object Repository/Page_ToP Week6 Test - Jira/Issue Type'))
+		WebUI.waitForElementVisible(findTestObject('Object Repository/Project Workflow/WorkflowTransitionsTitle'), timeout)
+	}
 }

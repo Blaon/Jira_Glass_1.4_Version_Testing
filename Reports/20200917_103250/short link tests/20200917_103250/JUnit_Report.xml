@@ -1,0 +1,189 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuites name="short link tests" time="58.632" tests="3" failures="0" errors="0">
+   <testsuite name="short link tests" tests="3" failures="0" errors="0" time="58.632" timestamp="2020-09-17 10:32:57" hostname="x - DESKTOP-S0L1J4E" id="Test Suites/short link tests">
+      <properties>
+         <property name="deviceName" value=""/>
+         <property name="devicePlatform" value=""/>
+         <property name="logFolder" value="C:\\Users\\x\\git\\Jira_Glass_1.4_Version_Testing\\Reports\\20200917_103250\\short link tests\\20200917_103250"/>
+         <property name="logFiles" value="C:\\Users\\x\\git\\Jira_Glass_1.4_Version_Testing\\Reports\\20200917_103250\\short link tests\\20200917_103250\\execution0.log"/>
+         <property name="attachments" value=""/>
+         <property name="hostName" value="x - DESKTOP-S0L1J4E"/>
+         <property name="os" value="Windows 10 64bit"/>
+         <property name="katalonVersion" value="7.6.6.205"/>
+         <property name="browser" value="Chrome 85.0.4183.102"/>
+         <property name="hostAddress" value="192.168.56.1"/>
+         <property name="sessionId" value="fd54546138835500923a7cf577844c4b"/>
+         <property name="seleniumVersion" value="3.141.59"/>
+         <property name="proxyInformation" value="ProxyInformation { proxyOption=NO_PROXY, proxyServerType=HTTP, username=, password=********, proxyServerAddress=, proxyServerPort=0, executionList=&quot;&quot;, isApplyToDesiredCapabilities=true }"/>
+         <property name="platform" value="Windows 10"/>
+      </properties>
+      <testcase name="Test Cases/InProgress/WorkflowAnalysisScreen" time="20.866" classname="Test Cases/InProgress/WorkflowAnalysisScreen" status="PASSED">
+         <system-out><![CDATA[2020-09-17 10:32:58 - [TEST_CASE][PASSED] - Test Cases/InProgress/WorkflowAnalysisScreen: Test Cases/InProgress/WorkflowAnalysisScreen
+
+2020-09-17 10:32:58 - [TEST_STEP][PASSED] - workflowScreen = new com.kms.katalon.core.testobject.TestObject(screen): null
+
+2020-09-17 10:32:58 - [TEST_STEP][PASSED] - workflowScreen.addProperty("xpath", EQUALS, xpath): null
+
+2020-09-17 10:32:58 - [TEST_STEP][PASSED] - topTestKeywords.Login.openBrowser(): topTestKeywords.Login.openBrowser is PASSED
+
+2020-09-17 10:32:59 - [MESSAGE][INFO] - Starting 'Chrome' driver
+
+2020-09-17 10:32:59 - [MESSAGE][INFO] - Action delay is set to 0 milliseconds
+
+2020-09-17 10:33:03 - [MESSAGE][PASSED] - Browser is opened with url: ''
+
+2020-09-17 10:33:05 - [MESSAGE][PASSED] - Current window maximized
+
+2020-09-17 10:33:07 - [MESSAGE][PASSED] - Navigate to 'https://jira2.codecool.codecanvas.hu' successfully
+
+2020-09-17 10:33:07 - [MESSAGE][PASSED] - topTestKeywords.Login.openBrowser is PASSED
+
+2020-09-17 10:33:07 - [TEST_STEP][PASSED] - topTestKeywords.Login.loginAsUser(SystemAdminUsername, SystemAdminPassword): topTestKeywords.Login.loginAsUser is PASSED
+
+2020-09-17 10:33:08 - [MESSAGE][PASSED] - Text 'codecooladmin' is set on object 'Object Repository/Page_System Dashboard - Jira/Username Field'
+
+2020-09-17 10:33:09 - [MESSAGE][PASSED] - Text '2019Aprilis1' is set on object 'Object Repository/Page_System Dashboard - Jira/Password Field'
+
+2020-09-17 10:33:09 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_System Dashboard - Jira/Login Button' is clicked on
+
+2020-09-17 10:33:12 - [MESSAGE][PASSED] - Object 'Object Repository/Page_System Dashboard - Jira/User Avatar' is visible
+
+2020-09-17 10:33:12 - [MESSAGE][PASSED] - topTestKeywords.Login.loginAsUser is PASSED
+
+2020-09-17 10:33:12 - [TEST_STEP][PASSED] - topTestKeywords.Login.goToTheWorkflow(timeout): topTestKeywords.Login.goToTheWorkflow is PASSED
+
+2020-09-17 10:33:15 - [MESSAGE][PASSED] - Navigate to 'https://jira2.codecool.codecanvas.hu/projects/TWT?selectedItem=com.codecanvas.glass:glass' successfully
+
+2020-09-17 10:33:16 - [MESSAGE][PASSED] - Object 'Object Repository/Page_ToP Week6 Test - Jira/Issue Dropdown' is visible
+
+2020-09-17 10:33:16 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_ToP Week6 Test - Jira/Issue Dropdown' is clicked on
+
+2020-09-17 10:33:17 - [MESSAGE][PASSED] - Object 'Object Repository/Page_ToP Week6 Test - Jira/Issue Type' is visible
+
+2020-09-17 10:33:17 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_ToP Week6 Test - Jira/Issue Type' is clicked on
+
+2020-09-17 10:33:18 - [MESSAGE][PASSED] - Object 'Object Repository/Project Workflow/WorkflowTransitionsTitle' is visible
+
+2020-09-17 10:33:18 - [MESSAGE][PASSED] - topTestKeywords.Login.goToTheWorkflow is PASSED
+
+2020-09-17 10:33:18 - [TEST_STEP][PASSED] - verifyElementText(workflowScreen, expectedScreen): Actual text and expected text of test object 'screen' are matched.
+
+2020-09-17 10:33:19 - [MESSAGE][PASSED] - Actual text and expected text of test object 'screen' are matched.]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/InProgress/WorkflowAnalysisScreen" time="17.848" classname="Test Cases/InProgress/WorkflowAnalysisScreen" status="PASSED">
+         <system-out><![CDATA[2020-09-17 10:33:19 - [TEST_CASE][PASSED] - Test Cases/InProgress/WorkflowAnalysisScreen: Test Cases/InProgress/WorkflowAnalysisScreen
+
+2020-09-17 10:33:19 - [TEST_STEP][PASSED] - workflowScreen = new com.kms.katalon.core.testobject.TestObject(screen): null
+
+2020-09-17 10:33:19 - [TEST_STEP][PASSED] - workflowScreen.addProperty("xpath", EQUALS, xpath): null
+
+2020-09-17 10:33:19 - [TEST_STEP][PASSED] - topTestKeywords.Login.openBrowser(): topTestKeywords.Login.openBrowser is PASSED
+
+2020-09-17 10:33:19 - [MESSAGE][WARNING] - A browser is already opened. Closing browser and opening a new one
+
+2020-09-17 10:33:19 - [MESSAGE][INFO] - Starting 'Chrome' driver
+
+2020-09-17 10:33:19 - [MESSAGE][INFO] - Action delay is set to 0 milliseconds
+
+2020-09-17 10:33:23 - [MESSAGE][PASSED] - Browser is opened with url: ''
+
+2020-09-17 10:33:25 - [MESSAGE][PASSED] - Current window maximized
+
+2020-09-17 10:33:27 - [MESSAGE][PASSED] - Navigate to 'https://jira2.codecool.codecanvas.hu' successfully
+
+2020-09-17 10:33:27 - [MESSAGE][PASSED] - topTestKeywords.Login.openBrowser is PASSED
+
+2020-09-17 10:33:27 - [TEST_STEP][PASSED] - topTestKeywords.Login.loginAsUser(SystemAdminUsername, SystemAdminPassword): topTestKeywords.Login.loginAsUser is PASSED
+
+2020-09-17 10:33:27 - [MESSAGE][PASSED] - Text 'codecooladmin' is set on object 'Object Repository/Page_System Dashboard - Jira/Username Field'
+
+2020-09-17 10:33:28 - [MESSAGE][PASSED] - Text '2019Aprilis1' is set on object 'Object Repository/Page_System Dashboard - Jira/Password Field'
+
+2020-09-17 10:33:29 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_System Dashboard - Jira/Login Button' is clicked on
+
+2020-09-17 10:33:30 - [MESSAGE][PASSED] - Object 'Object Repository/Page_System Dashboard - Jira/User Avatar' is visible
+
+2020-09-17 10:33:30 - [MESSAGE][PASSED] - topTestKeywords.Login.loginAsUser is PASSED
+
+2020-09-17 10:33:30 - [TEST_STEP][PASSED] - topTestKeywords.Login.goToTheWorkflow(timeout): topTestKeywords.Login.goToTheWorkflow is PASSED
+
+2020-09-17 10:33:33 - [MESSAGE][PASSED] - Navigate to 'https://jira2.codecool.codecanvas.hu/projects/TWT?selectedItem=com.codecanvas.glass:glass' successfully
+
+2020-09-17 10:33:34 - [MESSAGE][PASSED] - Object 'Object Repository/Page_ToP Week6 Test - Jira/Issue Dropdown' is visible
+
+2020-09-17 10:33:34 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_ToP Week6 Test - Jira/Issue Dropdown' is clicked on
+
+2020-09-17 10:33:35 - [MESSAGE][PASSED] - Object 'Object Repository/Page_ToP Week6 Test - Jira/Issue Type' is visible
+
+2020-09-17 10:33:35 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_ToP Week6 Test - Jira/Issue Type' is clicked on
+
+2020-09-17 10:33:36 - [MESSAGE][PASSED] - Object 'Object Repository/Project Workflow/WorkflowTransitionsTitle' is visible
+
+2020-09-17 10:33:36 - [MESSAGE][PASSED] - topTestKeywords.Login.goToTheWorkflow is PASSED
+
+2020-09-17 10:33:36 - [TEST_STEP][PASSED] - verifyElementText(workflowScreen, expectedScreen): Actual text and expected text of test object 'screen' are matched.
+
+2020-09-17 10:33:36 - [MESSAGE][PASSED] - Actual text and expected text of test object 'screen' are matched.]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/InProgress/WorkflowAnalysisScreen" time="18.696" classname="Test Cases/InProgress/WorkflowAnalysisScreen" status="PASSED">
+         <system-out><![CDATA[2020-09-17 10:33:36 - [TEST_CASE][PASSED] - Test Cases/InProgress/WorkflowAnalysisScreen: Test Cases/InProgress/WorkflowAnalysisScreen
+
+2020-09-17 10:33:37 - [TEST_STEP][PASSED] - workflowScreen = new com.kms.katalon.core.testobject.TestObject(screen): null
+
+2020-09-17 10:33:37 - [TEST_STEP][PASSED] - workflowScreen.addProperty("xpath", EQUALS, xpath): null
+
+2020-09-17 10:33:37 - [TEST_STEP][PASSED] - topTestKeywords.Login.openBrowser(): topTestKeywords.Login.openBrowser is PASSED
+
+2020-09-17 10:33:37 - [MESSAGE][WARNING] - A browser is already opened. Closing browser and opening a new one
+
+2020-09-17 10:33:37 - [MESSAGE][INFO] - Starting 'Chrome' driver
+
+2020-09-17 10:33:37 - [MESSAGE][INFO] - Action delay is set to 0 milliseconds
+
+2020-09-17 10:33:41 - [MESSAGE][PASSED] - Browser is opened with url: ''
+
+2020-09-17 10:33:43 - [MESSAGE][PASSED] - Current window maximized
+
+2020-09-17 10:33:45 - [MESSAGE][PASSED] - Navigate to 'https://jira2.codecool.codecanvas.hu' successfully
+
+2020-09-17 10:33:45 - [MESSAGE][PASSED] - topTestKeywords.Login.openBrowser is PASSED
+
+2020-09-17 10:33:45 - [TEST_STEP][PASSED] - topTestKeywords.Login.loginAsUser(SystemAdminUsername, SystemAdminPassword): topTestKeywords.Login.loginAsUser is PASSED
+
+2020-09-17 10:33:45 - [MESSAGE][PASSED] - Text 'codecooladmin' is set on object 'Object Repository/Page_System Dashboard - Jira/Username Field'
+
+2020-09-17 10:33:46 - [MESSAGE][PASSED] - Text '2019Aprilis1' is set on object 'Object Repository/Page_System Dashboard - Jira/Password Field'
+
+2020-09-17 10:33:46 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_System Dashboard - Jira/Login Button' is clicked on
+
+2020-09-17 10:33:49 - [MESSAGE][PASSED] - Object 'Object Repository/Page_System Dashboard - Jira/User Avatar' is visible
+
+2020-09-17 10:33:49 - [MESSAGE][PASSED] - topTestKeywords.Login.loginAsUser is PASSED
+
+2020-09-17 10:33:49 - [TEST_STEP][PASSED] - topTestKeywords.Login.goToTheWorkflow(timeout): topTestKeywords.Login.goToTheWorkflow is PASSED
+
+2020-09-17 10:33:52 - [MESSAGE][PASSED] - Navigate to 'https://jira2.codecool.codecanvas.hu/projects/TWT?selectedItem=com.codecanvas.glass:glass' successfully
+
+2020-09-17 10:33:53 - [MESSAGE][PASSED] - Object 'Object Repository/Page_ToP Week6 Test - Jira/Issue Dropdown' is visible
+
+2020-09-17 10:33:53 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_ToP Week6 Test - Jira/Issue Dropdown' is clicked on
+
+2020-09-17 10:33:53 - [MESSAGE][PASSED] - Object 'Object Repository/Page_ToP Week6 Test - Jira/Issue Type' is visible
+
+2020-09-17 10:33:54 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_ToP Week6 Test - Jira/Issue Type' is clicked on
+
+2020-09-17 10:33:55 - [MESSAGE][PASSED] - Object 'Object Repository/Project Workflow/WorkflowTransitionsTitle' is visible
+
+2020-09-17 10:33:55 - [MESSAGE][PASSED] - topTestKeywords.Login.goToTheWorkflow is PASSED
+
+2020-09-17 10:33:55 - [TEST_STEP][PASSED] - verifyElementText(workflowScreen, expectedScreen): Actual text and expected text of test object 'screen' are matched.
+
+2020-09-17 10:33:55 - [MESSAGE][PASSED] - Actual text and expected text of test object 'screen' are matched.]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <system-out><![CDATA[2020-09-17 10:32:57 - [TEST_SUITE][PASSED] - short link tests: Test Cases/InProgress/WorkflowAnalysisScreen]]></system-out>
+      <system-err><![CDATA[]]></system-err>
+   </testsuite>
+</testsuites>

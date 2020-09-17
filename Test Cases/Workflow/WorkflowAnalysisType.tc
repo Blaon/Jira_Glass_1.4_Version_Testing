@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>WorkflowAnalysisType</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>4962992b-1bc0-414e-a36a-5fd093fca6d6</testCaseGuid>
+   <variable>
+      <defaultValue>''</defaultValue>
+      <description></description>
+      <id>6d1947e4-c63f-42d4-813d-059bbc59579f</id>
+      <masked>false</masked>
+      <name>xpath</name>
+   </variable>
+   <variable>
+      <defaultValue>''</defaultValue>
+      <description></description>
+      <id>97a4a12b-dfdc-4a54-b6f9-46d4b968557b</id>
+      <masked>false</masked>
+      <name>expectedType</name>
+   </variable>
+   <variable>
+      <defaultValue>GlobalVariable.Timeout</defaultValue>
+      <description></description>
+      <id>1e5fa8ed-380e-4acf-b6f3-344ac1764d54</id>
+      <masked>false</masked>
+      <name>timeout</name>
+   </variable>
+</TestCaseEntity>
