@@ -9,3 +9,5 @@ We needed to answer a question: Based on our tests do we recommend the release t
 Technologies and Frameworks:
 
 Katalon Studio - DDT, POM, Keyword Driven Testing
+
+Common values (username, password,base url, ect) are saved in a profile file, which is not commited for security reasons.
